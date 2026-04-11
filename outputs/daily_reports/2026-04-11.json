@@ -1,0 +1,255 @@
+{
+  "date": "2026-04-11",
+  "proposals": [
+    {
+      "ticker": "LLY",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 980.0,
+        "bid": 74.0,
+        "ask": 77.3,
+        "last": 85.4,
+        "open_interest": 255,
+        "implied_vol": 0.41737948348999016,
+        "spread_ratio": 0.0427,
+        "dte": 131
+      },
+      "features": {
+        "impact": 8,
+        "surprise": 6,
+        "mismatch": 4.595,
+        "z_score": 0.681,
+        "sigma_30d": 0.0213,
+        "eps_drift": 0.0,
+        "bin_impact": "high",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 1033.42,
+        "current_price": 939.47,
+        "sigma_adj": 0.0192,
+        "sector": "Healthcare",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "LLY",
+        "impact": 8,
+        "surprise": 6,
+        "mispricing_logic": "Der Markt bewertet die Centessa-Akquisition prim\u00e4r als Kostenposten (~7,8B$) und ignoriert den strategischen Optionswert: Centessa bringt ein Pipeline-Asset (Apeglitastat/SRP-9001-adjacent) in neue Kategorien. Kombiniert mit dem oralen GLP-1-Launch (Orforglipron) entsteht ein dual-catalyst-Moment. Der -1,45%-Move signalisiert kurzfristiges Rauschen statt fundamentale Neubewertung. EPS-Drift von 0.0 zeigt, dass Analysten ihre Modelle noch nicht angepasst haben.",
+        "catalyst": "Orforglipron Phase-3-Daten-Readout (ACHIEVE-1/ACHIEVE-2 erwartet Q2 2025) + Q1 Earnings-Call mit konkreten Launch-Guidance-Zahlen f\u00fcr orales Adipositas-Segment",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Orforglipron zeigt in Phase-3 schlechtere Gewichtsreduktion als injectable GLP-1s (Wegovy/Mounjaro). Centessa-Akquisition verw\u00e4ssert FCF erheblich bei gleichzeitig steigenden Kapitalkosten. FDA-Verz\u00f6gerungen m\u00f6glich.",
+        "bear_case_severity": 7,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.0645
+    },
+    {
+      "ticker": "META",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 700.0,
+        "bid": 33.0,
+        "ask": 33.4,
+        "last": 33.35,
+        "open_interest": 2204,
+        "implied_vol": 0.390203851928711,
+        "spread_ratio": 0.012,
+        "dte": 131
+      },
+      "features": {
+        "impact": 6,
+        "surprise": 7,
+        "mismatch": 0.733,
+        "z_score": 1.053,
+        "sigma_30d": 0.027,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 0.9713,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 692.85,
+        "current_price": 629.86,
+        "sigma_adj": 0.027,
+        "sector": "Communication Services",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "META",
+        "impact": 6,
+        "surprise": 7,
+        "mispricing_logic": "Der Markt behandelt die Moltbook-Akquisition als inkrementellen M&A-Deal, versteht aber nicht die strategische Implikation: Meta baut eine propriet\u00e4re Infrastruktur-Ebene f\u00fcr AI-Agent-Interaktion, analog zu wie Facebook das soziale Graph-Layer dominierte. Bei Forward EPS von 35.74 und Analyst-Konsens nahe Buy ist die Einpreisung dieser neuen Produktkategorie noch nicht im Modell reflektiert. EPS-Drift von 0 signalisiert, dass Analysten ihre Sch\u00e4tzungen noch nicht angepasst haben.",
+        "catalyst": "Meta Q2 2025 Earnings Call (late July) \u2013 Management wird Moltbook-Integration in AI-Agent-Strategie konkretisieren und erste Monetarisierungshinweise geben; Analysten werden daraufhin Modelle anpassen.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "FTC/DOJ k\u00f6nnten Akquisition als weiteren Versuch der Monopolisierung im AI-Bereich blockieren oder auflagen belegen. Zudem ist Moltbook ein obscures Produkt \u2013 hohe Execution-Risk bei AI-Agent-Integration, m\u00f6glicher Value Destruction.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.0095
+    },
+    {
+      "ticker": "MRK",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 130.0,
+        "bid": 6.0,
+        "ask": 6.2,
+        "last": 6.05,
+        "open_interest": 2663,
+        "implied_vol": 0.2979196185302734,
+        "spread_ratio": 0.0323,
+        "dte": 159
+      },
+      "features": {
+        "impact": 7,
+        "surprise": 6,
+        "mismatch": 2.158,
+        "z_score": 0.968,
+        "sigma_30d": 0.0148,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 133.56,
+        "current_price": 121.42,
+        "sigma_adj": 0.0133,
+        "sector": "Healthcare",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "MRK",
+        "impact": 7,
+        "surprise": 6,
+        "mispricing_logic": "Der Markt fokussiert sich kurzfristig auf KEYTRUDA-Patentcliff (2028) und \u00fcbersieht, dass Oral-PCSK9 + Terns-Akquisition (NASH/metabolische Pipeline) zwei v\u00f6llig neue Umsatzkategorien adressieren. -1.43% trotz Phase-3-Erfolg signalisiert klassische Underreaction: Investoren diskontieren M&A-Kosten und Keytruda-Risiko, ohne das risikoadjustierte Upside der neuen Kategorien einzupreisen. EPS-Drift von 0.0 deutet auf fehlende Konsensrevision trotz materialem Newsflow.",
+        "catalyst": "Merck Investor Day / Q1-2025 Earnings Call mit expliziter Oral-PCSK9-Kommerzialisierungsstrategie und Terns-Integration-Guidance; FDA Fast-Track-Designation f\u00fcr Oral-PCSK9 w\u00fcrde Einpreisung unmittelbar erzwingen",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "Terns-Akquisition zu 6.7B$ k\u00f6nnte \u00fcberzahlt sein bei kompetitivem NASH-Markt (Madrigal, Novo). Oral-PCSK9 muss noch Cardiovascular Outcomes Trial \u00fcberstehen. Kombination aus Kapitalallokation-Skepsis und Keytruda-Cliff dr\u00fcckt Multiples strukturell.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.0095
+    },
+    {
+      "ticker": "AAPL",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 280.0,
+        "bid": 9.5,
+        "ask": 9.75,
+        "last": 9.5,
+        "open_interest": 5543,
+        "implied_vol": 0.2744518356323242,
+        "spread_ratio": 0.0256,
+        "dte": 131
+      },
+      "features": {
+        "impact": 4,
+        "surprise": 3,
+        "mismatch": 1.665,
+        "z_score": 0.467,
+        "sigma_30d": 0.0131,
+        "eps_drift": 0.0,
+        "bin_impact": "low",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 286.53,
+        "current_price": 260.48,
+        "sigma_adj": 0.017,
+        "sector": "Technology",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "AAPL",
+        "impact": 4,
+        "surprise": 3,
+        "mispricing_logic": "Die Headline \u00fcber 'Most Lucrative Product Rollouts Ever' ist vage und ohne konkreten Earnings-Impact quantifizierbar. EPS-Drift von 0.0 signalisiert keine fundamentale Revision durch Analysten. Der Markt reagiert tr\u00e4ge (+0.61%), weil die Produktkategorie unspezifisch bleibt und 'Sector Weight'-Rating auf gemischte Ausgaben hindeutet. M\u00f6gliche Underreaction: Markt untersch\u00e4tzt Apple Intelligence Monetarisierungspotenzial im Upgrade-Zyklus, aber Evidenz ist d\u00fcnn.",
+        "catalyst": "Apple Q1 FY2025 Earnings (Januar/Februar 2025) mit konkreten iPhone-16-Verkaufszahlen und Vision Pro Adoption-Daten als erster harter Beweis f\u00fcr Produkt-ROI",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Analyst-Rating 'Sector Weight' bei gemischten Ausgaben-Trends deutet auf stagnierenden Upgrade-Zyklus hin. China-Umsatzrisiko (Huawei-Konkurrenz) und schwacher Consumer bleibt ungel\u00f6st. Kein EPS-Drift = keine Analysten-\u00dcberzeugung.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": -0.0115
+    },
+    {
+      "ticker": "UNH",
+      "strategy": "LONG_PUT",
+      "iv_rank": 22.222222222222225,
+      "direction": "BEARISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 310.0,
+        "bid": 26.5,
+        "ask": 26.85,
+        "last": 25.8,
+        "open_interest": 1218,
+        "implied_vol": 0.3238287832641601,
+        "spread_ratio": 0.013,
+        "dte": 131
+      },
+      "features": {
+        "impact": 4,
+        "surprise": 2,
+        "mismatch": 2.854,
+        "z_score": 0.229,
+        "sigma_30d": 0.0235,
+        "eps_drift": 0.0,
+        "bin_impact": "low",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 273.9,
+        "current_price": 304.33,
+        "sigma_adj": 0.0212,
+        "sector": "Healthcare",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "UNH",
+        "impact": 4,
+        "surprise": 2,
+        "mispricing_logic": "Der Markt unterbewertet die strukturellen Probleme: 18% YTD-Verlust reflektiert self-inflicted operational issues (steigende Medical-Loss-Ratio, Billing-Skandale, CEO-Nachfolge-Unsicherheit). AI-Investitionen sind langfristig positiv, aber keine kurzfristige Fix-All-L\u00f6sung. EPS-Drift von 0.0 signalisiert Stagnation statt Aufw\u00e4rtsrevision \u2013 Analyst-Upgrade wirkt wie Contrarian-Signal in einer fundamentalen Schw\u00e4chephase, nicht als echter Asymmetrie-Trigger.",
+        "catalyst": "N\u00e4chster Earnings-Call (Q2 2026, ca. Juli 2026) mit Medical-Loss-Ratio-Disclosure und Guidance-Update. Fr\u00fchere Katalysatoren: CMS Medicare Advantage Rate-Finalisierung und DOJ-Ermittlungs-Updates.",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "Steigende Medical-Loss-Ratio + m\u00f6gliche DOJ/Fraud-Ermittlungen + politischer Druck auf Medicare Advantage-Erstattungen k\u00f6nnten EPS von 20.13 als uneinholbar entlarven. Operative Probleme sind strukturell, nicht zyklisch.",
+        "bear_case_severity": 7,
+        "direction": "BEARISH"
+      },
+      "final_score": -0.0115
+    }
+  ]
+}
