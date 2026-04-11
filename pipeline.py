@@ -18,6 +18,7 @@ from modules.quasi_ml import QuasiML
 from modules.options_designer import OptionsDesigner
 from modules.reporter import Reporter
 from modules.risk_gates import RiskGates
+from modules.email_reporter import send_email
 
 logging.basicConfig(
     level=logging.INFO,
@@ -140,6 +141,10 @@ def main() -> None:
         })
 
     save_history(history)
+
+    # ── EMAIL ─────────────────────────────────────────────────────────────
+    send_email(trade_proposals, today)
+
     log.info(f"=== Pipeline beendet. {len(trade_proposals)} Trade-Vorschläge generiert. ===")
 
 
