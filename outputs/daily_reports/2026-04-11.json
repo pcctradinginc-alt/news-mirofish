@@ -19,7 +19,7 @@
       },
       "features": {
         "impact": 8,
-        "surprise": 6,
+        "surprise": 5,
         "mismatch": 4.595,
         "z_score": 0.681,
         "sigma_30d": 0.0213,
@@ -36,20 +36,70 @@
         "current_price": 939.47,
         "sigma_adj": 0.0192,
         "sector": "Healthcare",
-        "ttm": "4-8 Wochen"
+        "ttm": "2-3 Monate"
       },
       "deep_analysis": {
         "ticker": "LLY",
         "impact": 8,
-        "surprise": 6,
-        "mispricing_logic": "Der Markt bewertet die Centessa-Akquisition prim\u00e4r als Kostenposten (~7,8B$) und ignoriert den strategischen Optionswert: Centessa bringt ein Pipeline-Asset (Apeglitastat/SRP-9001-adjacent) in neue Kategorien. Kombiniert mit dem oralen GLP-1-Launch (Orforglipron) entsteht ein dual-catalyst-Moment. Der -1,45%-Move signalisiert kurzfristiges Rauschen statt fundamentale Neubewertung. EPS-Drift von 0.0 zeigt, dass Analysten ihre Modelle noch nicht angepasst haben.",
-        "catalyst": "Orforglipron Phase-3-Daten-Readout (ACHIEVE-1/ACHIEVE-2 erwartet Q2 2025) + Q1 Earnings-Call mit konkreten Launch-Guidance-Zahlen f\u00fcr orales Adipositas-Segment",
-        "time_to_materialization": "4-8 Wochen",
-        "bear_case": "Orforglipron zeigt in Phase-3 schlechtere Gewichtsreduktion als injectable GLP-1s (Wegovy/Mounjaro). Centessa-Akquisition verw\u00e4ssert FCF erheblich bei gleichzeitig steigenden Kapitalkosten. FDA-Verz\u00f6gerungen m\u00f6glich.",
-        "bear_case_severity": 7,
+        "surprise": 5,
+        "mispricing_logic": "Der Markt reagiert mit -1.45% auf zwei strukturell positive Ereignisse: orales Obesity-Drug (adressiert Injektionsbarriere, massives TAM-Upgrade) und Centessa-Akquisition ($7.8B, Pipeline-Erweiterung). Der EPS-Drift von 0.0 signalisiert fehlende Revision-Momentum trotz materiellem Umsatzpotenzial. Markt fokussiert kurzfristig auf Bewertungspremium und M&A-Dilution, ignoriert jedoch den langfristigen Marktanteilsgewinn durch orale Verabreichungsform gegen\u00fcber Novo Nordisk.",
+        "catalyst": "Q2-Launch des oralen Obesity-Drugs (Orforglipron) mit ersten Verschreibungsdaten und Analyst-Day-Updates; Earnings-Report mit Forward-Guidance-Revision (erwartbar Q2 2025). Centessa-Deal-Close erzwingt Pipeline-Neubewertung durch Buy-Side.",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "FDA-Zulassungsverz\u00f6gerung f\u00fcr orales GLP-1 oder entt\u00e4uschende Phase-III-Daten. Centessa-Integration absorbiert Management-Attention. Politischer Druck auf Medikamentenpreise (IRA-Verhandlungen) komprimiert Margen strukturell.",
+        "bear_case_severity": 6,
         "direction": "BULLISH"
       },
       "final_score": 0.0645
+    },
+    {
+      "ticker": "UNH",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 330.0,
+        "bid": 14.85,
+        "ask": 15.55,
+        "last": 15.05,
+        "open_interest": 2715,
+        "implied_vol": 0.3467472552490234,
+        "spread_ratio": 0.045,
+        "dte": 131
+      },
+      "features": {
+        "impact": 5,
+        "surprise": 3,
+        "mismatch": 3.854,
+        "z_score": 0.229,
+        "sigma_30d": 0.0235,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 334.76,
+        "current_price": 304.33,
+        "sigma_adj": 0.0212,
+        "sector": "Healthcare",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "UNH",
+        "impact": 5,
+        "surprise": 3,
+        "mispricing_logic": "Der Markt diskontiert selbstverschuldete operative Probleme (steigende Medical Loss Ratios, CEO-Wechsel, DOJ-Ermittlungen) \u00fcberm\u00e4\u00dfig stark und ignoriert, dass AI-Investitionen strukturell die Kosteneffizienz verbessern k\u00f6nnen. EPS-Drift von 0.0 deutet auf Konsens-Stagnation hin, obwohl Forward EPS von 20.13 bei aktuellem Kursniveau (~245-260$) ein KGV unter 13x impliziert \u2013 historisch g\u00fcnstig f\u00fcr einen Marktf\u00fchrer mit Pricing Power.",
+        "catalyst": "Q1 2026 Earnings Release (Mitte April 2026): Erstmalige quantifizierbare AI-Effizienzgewinne in der MLR-Guidance + potenzielle Anhebung des Full-Year-Ausblicks w\u00fcrden Konsenssch\u00e4tzungen nach oben zwingen.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "DOJ-Ermittlung zu Medicare Advantage Abrechnungspraktiken eskaliert zu strukturellen Strafen. MLR bleibt strukturell erh\u00f6ht (>87%), da AI-Effizienzgewinne langsamer skalieren als erwartet. Regulatorischer Druck auf Medicare Advantage Reimbursements 2026 h\u00e4lt an.",
+        "bear_case_severity": 7,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.0365
     },
     {
       "ticker": "META",
@@ -79,27 +129,27 @@
         "bin_eps_drift": "noise"
       },
       "simulation": {
-        "hit_rate": 0.9713,
+        "hit_rate": 0.9877,
         "n_paths": 10000,
         "n_days": 120,
         "target_price": 692.85,
         "current_price": 629.86,
         "sigma_adj": 0.027,
         "sector": "Communication Services",
-        "ttm": "4-8 Wochen"
+        "ttm": "2-3 Monate"
       },
       "deep_analysis": {
         "ticker": "META",
         "impact": 6,
         "surprise": 7,
-        "mispricing_logic": "Der Markt behandelt die Moltbook-Akquisition als inkrementellen M&A-Deal, versteht aber nicht die strategische Implikation: Meta baut eine propriet\u00e4re Infrastruktur-Ebene f\u00fcr AI-Agent-Interaktion, analog zu wie Facebook das soziale Graph-Layer dominierte. Bei Forward EPS von 35.74 und Analyst-Konsens nahe Buy ist die Einpreisung dieser neuen Produktkategorie noch nicht im Modell reflektiert. EPS-Drift von 0 signalisiert, dass Analysten ihre Sch\u00e4tzungen noch nicht angepasst haben.",
-        "catalyst": "Meta Q2 2025 Earnings Call (late July) \u2013 Management wird Moltbook-Integration in AI-Agent-Strategie konkretisieren und erste Monetarisierungshinweise geben; Analysten werden daraufhin Modelle anpassen.",
-        "time_to_materialization": "4-8 Wochen",
-        "bear_case": "FTC/DOJ k\u00f6nnten Akquisition als weiteren Versuch der Monopolisierung im AI-Bereich blockieren oder auflagen belegen. Zudem ist Moltbook ein obscures Produkt \u2013 hohe Execution-Risk bei AI-Agent-Integration, m\u00f6glicher Value Destruction.",
+        "mispricing_logic": "Der Markt bewertet die Moltbook-Akquisition als inkrementelles Feature, nicht als strategischen Pivot: Ein dediziertes Netzwerk f\u00fcr AI-Agenten schafft eine B2B/Developer-Moat, die METs Monetarisierungsbasis fundamental erweitert. Gleichzeitig signalisiert die Signal-Encryption-Integration, dass Meta regulatorische Glaubw\u00fcrdigkeit beim EU-Datenschutz kauft \u2013 ein untersch\u00e4tzter Optionswert f\u00fcr europ\u00e4isches Wachstum. EPS-Drift von 0.0 zeigt, dass Analysten noch keine Revision vorgenommen haben.",
+        "catalyst": "N\u00e4chstes Earnings Call (Q2 2025, ca. Juli 2025): Erste Monetarisierungskennzahlen aus Moltbook-Integration + m\u00f6gliche Guidance-Erh\u00f6hung durch AI-Agent-Advertising-Revenue; alternativ EU-Regulierungsentscheidung zu verschl\u00fcsselter KI-Kommunikation",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "Moltbook ist ein Nischenprodukt ohne bewiesene Nutzerbasis; AI-Agent-Netzwerke haben keinen validierten Monetarisierungspfad. Encryption-Integration k\u00f6nnte Werbe-Targeting strukturell besch\u00e4digen und Kern-Revenue-Driver untergraben.",
         "bear_case_severity": 6,
         "direction": "BULLISH"
       },
-      "final_score": 0.0095
+      "final_score": 0.014
     },
     {
       "ticker": "MRK",
@@ -119,7 +169,7 @@
       },
       "features": {
         "impact": 7,
-        "surprise": 6,
+        "surprise": 5,
         "mismatch": 2.158,
         "z_score": 0.968,
         "sigma_30d": 0.0148,
@@ -141,15 +191,15 @@
       "deep_analysis": {
         "ticker": "MRK",
         "impact": 7,
-        "surprise": 6,
-        "mispricing_logic": "Der Markt fokussiert sich kurzfristig auf KEYTRUDA-Patentcliff (2028) und \u00fcbersieht, dass Oral-PCSK9 + Terns-Akquisition (NASH/metabolische Pipeline) zwei v\u00f6llig neue Umsatzkategorien adressieren. -1.43% trotz Phase-3-Erfolg signalisiert klassische Underreaction: Investoren diskontieren M&A-Kosten und Keytruda-Risiko, ohne das risikoadjustierte Upside der neuen Kategorien einzupreisen. EPS-Drift von 0.0 deutet auf fehlende Konsensrevision trotz materialem Newsflow.",
-        "catalyst": "Merck Investor Day / Q1-2025 Earnings Call mit expliziter Oral-PCSK9-Kommerzialisierungsstrategie und Terns-Integration-Guidance; FDA Fast-Track-Designation f\u00fcr Oral-PCSK9 w\u00fcrde Einpreisung unmittelbar erzwingen",
+        "surprise": 5,
+        "mispricing_logic": "Der Markt diskontiert weiterhin prim\u00e4r das KEYTRUDA-Patentkliff (2028) und ignoriert die strukturelle Pipeline-Transformation: Oral PCSK9 adressiert einen Multi-Milliarden-Markt ohne Injektionsnachteile, Terns-Akquisition sichert NASH-Exposure, und Sac-TMT zeigt fr\u00fches ADC-Potenzial. Der EPS-Drift von 0.0 signalisiert, dass Analysten diese Katalysatoren noch nicht in Sch\u00e4tzungen eingebaut haben. Die -1.43% 48h-Bewegung trotz positiver Datenlage ist klassische Underreaction durch Headline-Fatigue bei Pharma-M&A.",
+        "catalyst": "Phase 3 PCSK9 Full Data-Readout auf AHA/ACC-Kongress (Fr\u00fchjahr 2025) oder FDA-Einreichung Sac-TMT \u2013 erzwingt Analyst-Revisionen und Multiple-Expansion weg vom reinen KEYTRUDA-Proxy-Framing.",
         "time_to_materialization": "2-3 Monate",
-        "bear_case": "Terns-Akquisition zu 6.7B$ k\u00f6nnte \u00fcberzahlt sein bei kompetitivem NASH-Markt (Madrigal, Novo). Oral-PCSK9 muss noch Cardiovascular Outcomes Trial \u00fcberstehen. Kombination aus Kapitalallokation-Skepsis und Keytruda-Cliff dr\u00fcckt Multiples strukturell.",
+        "bear_case": "Terns-Akquisition ($6.7B) zahlt Premium auf unbest\u00e4tigte NASH-Daten; KEYTRUDA-Biosimilar-Erosion 2028 k\u00f6nnte Cashflow schneller komprimieren als Pipeline-Revenues skalieren. M&A-Integrations\u00adrisiko real.",
         "bear_case_severity": 6,
         "direction": "BULLISH"
       },
-      "final_score": 0.0095
+      "final_score": 0.014
     },
     {
       "ticker": "AAPL",
@@ -169,7 +219,7 @@
       },
       "features": {
         "impact": 4,
-        "surprise": 3,
+        "surprise": 2,
         "mismatch": 1.665,
         "z_score": 0.467,
         "sigma_30d": 0.0131,
@@ -191,37 +241,37 @@
       "deep_analysis": {
         "ticker": "AAPL",
         "impact": 4,
-        "surprise": 3,
-        "mispricing_logic": "Die Headline \u00fcber 'Most Lucrative Product Rollouts Ever' ist vage und ohne konkreten Earnings-Impact quantifizierbar. EPS-Drift von 0.0 signalisiert keine fundamentale Revision durch Analysten. Der Markt reagiert tr\u00e4ge (+0.61%), weil die Produktkategorie unspezifisch bleibt und 'Sector Weight'-Rating auf gemischte Ausgaben hindeutet. M\u00f6gliche Underreaction: Markt untersch\u00e4tzt Apple Intelligence Monetarisierungspotenzial im Upgrade-Zyklus, aber Evidenz ist d\u00fcnn.",
-        "catalyst": "Apple Q1 FY2025 Earnings (Januar/Februar 2025) mit konkreten iPhone-16-Verkaufszahlen und Vision Pro Adoption-Daten als erster harter Beweis f\u00fcr Produkt-ROI",
+        "surprise": 2,
+        "mispricing_logic": "Die Headlines deuten auf einen bedeutenden Produkt-Launch hin, doch der EPS-Drift von 0.0 signalisiert keine Konsensrevision \u2013 Analysten haben die potenzielle Umsatzwirkung noch nicht eingepreist. Der Markt reagiert tr\u00e4ge, weil der konkrete Zeitplan und Margenbeitrag unklar sind. 'Most Lucrative' ist Marketing-Sprache ohne belastbare Quartalszahlen. Bei AAPL-Gr\u00f6\u00dfe braucht jede neue Kategorie signifikante Volumen, um die Nadel zu bewegen.",
+        "catalyst": "Apple Earnings Q2 FY2025 (erwartet Ende April/Mai 2025) mit erstem Revenue-Breakdown der neuen Produktkategorie sowie potenzielle Developer/Launch-Event-Ank\u00fcndigung innerhalb der n\u00e4chsten 4-6 Wochen",
         "time_to_materialization": "4-8 Wochen",
-        "bear_case": "Analyst-Rating 'Sector Weight' bei gemischten Ausgaben-Trends deutet auf stagnierenden Upgrade-Zyklus hin. China-Umsatzrisiko (Huawei-Konkurrenz) und schwacher Consumer bleibt ungel\u00f6st. Kein EPS-Drift = keine Analysten-\u00dcberzeugung.",
+        "bear_case": "Analyst-Rating 'Sector Weight' bei gemischten Spending Trends signalisiert Vorsicht. Mixed Consumer Spending trifft Premium-Hardware zuerst. Ohne EPS-Drift-Aufw\u00e4rtsrevision bleibt die Geschichte Spekulation ohne fundamentale Best\u00e4tigung.",
         "bear_case_severity": 6,
         "direction": "BULLISH"
       },
-      "final_score": -0.0115
+      "final_score": -0.007
     },
     {
-      "ticker": "UNH",
+      "ticker": "TSLA",
       "strategy": "LONG_PUT",
       "iv_rank": 22.222222222222225,
       "direction": "BEARISH",
       "option": {
         "expiry": "2026-08-21",
-        "strike": 310.0,
-        "bid": 26.5,
-        "ask": 26.85,
-        "last": 25.8,
-        "open_interest": 1218,
-        "implied_vol": 0.3238287832641601,
-        "spread_ratio": 0.013,
+        "strike": 350.0,
+        "bid": 36.45,
+        "ask": 36.7,
+        "last": 37.62,
+        "open_interest": 3942,
+        "implied_vol": 0.4310969976806641,
+        "spread_ratio": 0.0068,
         "dte": 131
       },
       "features": {
         "impact": 4,
-        "surprise": 2,
-        "mismatch": 2.854,
-        "z_score": 0.229,
+        "surprise": 3,
+        "mismatch": 0.459,
+        "z_score": 0.708,
         "sigma_30d": 0.0235,
         "eps_drift": 0.0,
         "bin_impact": "low",
@@ -229,27 +279,27 @@
         "bin_eps_drift": "noise"
       },
       "simulation": {
-        "hit_rate": 1.0,
+        "hit_rate": 0.9642,
         "n_paths": 10000,
         "n_days": 120,
-        "target_price": 273.9,
-        "current_price": 304.33,
-        "sigma_adj": 0.0212,
-        "sector": "Healthcare",
+        "target_price": 314.06,
+        "current_price": 348.95,
+        "sigma_adj": 0.0235,
+        "sector": "Consumer Cyclical",
         "ttm": "2-3 Monate"
       },
       "deep_analysis": {
-        "ticker": "UNH",
+        "ticker": "TSLA",
         "impact": 4,
-        "surprise": 2,
-        "mispricing_logic": "Der Markt unterbewertet die strukturellen Probleme: 18% YTD-Verlust reflektiert self-inflicted operational issues (steigende Medical-Loss-Ratio, Billing-Skandale, CEO-Nachfolge-Unsicherheit). AI-Investitionen sind langfristig positiv, aber keine kurzfristige Fix-All-L\u00f6sung. EPS-Drift von 0.0 signalisiert Stagnation statt Aufw\u00e4rtsrevision \u2013 Analyst-Upgrade wirkt wie Contrarian-Signal in einer fundamentalen Schw\u00e4chephase, nicht als echter Asymmetrie-Trigger.",
-        "catalyst": "N\u00e4chster Earnings-Call (Q2 2026, ca. Juli 2026) mit Medical-Loss-Ratio-Disclosure und Guidance-Update. Fr\u00fchere Katalysatoren: CMS Medicare Advantage Rate-Finalisierung und DOJ-Ermittlungs-Updates.",
+        "surprise": 3,
+        "mispricing_logic": "Der Markt preist SpaceX-IPO-Optionalit\u00e4t und Optimus-Skalierung weder konsistent ein noch aus. EPS-Drift=0 zeigt keine fundamentale Revision trotz neuer Produktkategorien. Der Konsens (2.44) liegt unter Forward-EPS (2.73), was auf selektiven Pessimismus hindeutet. Die +1.66% Bewegung reflektiert Rauschen, nicht strukturelle Neubewertung. Kernproblem: Markt behandelt Optimus/SpaceX als Speculation, nicht als diskontierbare Cash-Flow-Quelle.",
+        "catalyst": "Tesla Q2 2025 Earnings Call (erwarteter Termin Juli 2025): Erste Optimus-Produktionszahlen und Robotaxi-Rollout-Metriken als quantifizierbare KPIs. Jede Guidance-Anhebung \u00fcber Konsens w\u00fcrde Neubewertung erzwingen.",
         "time_to_materialization": "2-3 Monate",
-        "bear_case": "Steigende Medical-Loss-Ratio + m\u00f6gliche DOJ/Fraud-Ermittlungen + politischer Druck auf Medicare Advantage-Erstattungen k\u00f6nnten EPS von 20.13 als uneinholbar entlarven. Operative Probleme sind strukturell, nicht zyklisch.",
+        "bear_case": "Optimus scheitert an physikalischen Skalierungsgrenzen (Energie/Aktorik-Problem ist real). Autonomes Fahren bleibt regulatorisch blockiert. SpaceX-IPO ist reines Narrativ ohne bindenden Zeitplan. Musk-Ablenkung durch xAI/DOGE zerst\u00f6rt Fokus.",
         "bear_case_severity": 7,
         "direction": "BEARISH"
       },
-      "final_score": -0.0115
+      "final_score": -0.007
     }
   ]
 }
