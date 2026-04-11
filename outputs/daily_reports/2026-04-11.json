@@ -19,7 +19,7 @@
       },
       "features": {
         "impact": 4,
-        "surprise": 2,
+        "surprise": 3,
         "mismatch": 0.595,
         "z_score": 0.681,
         "sigma_30d": 0.0213,
@@ -41,12 +41,12 @@
       "deep_analysis": {
         "ticker": "LLY",
         "impact": 4,
-        "surprise": 2,
-        "mispricing_logic": "Der Markt reagiert auf Indien-spezifische Generika-Konkurrenz bei GLP-1s als w\u00e4ren US/EU-Revenues betroffen. Strukturell falsch: LLY h\u00e4lt keine dominante Position in Indien, Tirzepatid-Patentschutz in Kernm\u00e4rkten bleibt intakt bis 2036+. Die -1.45% Bewegung \u00fcbergewichtet einen geografisch marginalen Markt mit niedrigen ASPs. EPS-Drift von 0.0 signalisiert, dass Analysten ihre Sch\u00e4tzungen nicht anpassen \u2013 kongruent mit 'no fundamental change'-These.",
-        "catalyst": "LLY Q2 2025 Earnings (voraussichtlich Juli/August 2025): Mounjaro/Zepbound US-Volumendaten werden Indien-Narrativ widerlegen; Supply-Normalisierung und Formulary-Wins als positiver Offset.",
+        "surprise": 3,
+        "mispricing_logic": "Der Markt reagiert auf indischen Generika-Wettbewerb als w\u00e4re er f\u00fcr LLYs US/EU-Revenue relevant. LLY hat in Indien marginales Exposure. Der eigentliche Hebel liegt im US-GLP-1-Duopol (Mounjaro/Zepbound), das durch FDA-Regulierung und Patentschutz bis 2036+ abgeschirmt ist. Die -1.45% Bewegung reflektiert Headline-Risiko, nicht fundamentalen Schaden. EPS-Drift von 0.0 best\u00e4tigt: Analysten revidieren nicht.",
+        "catalyst": "LLY Q2 2025 Earnings (voraussichtlich August 2025) mit Mounjaro/Zepbound-Volumendaten und US-Marktanteilsbest\u00e4tigung als Gegenbeweis zur Generika-Narrative",
         "time_to_materialization": "4-8 Wochen",
-        "bear_case": "Indien als Blaupause: Komprimierter Pricing-Druck setzt sich in Emerging Markets fort, belastet LLY's Wachstumsstory in Schwellenl\u00e4ndern strukturell und signalisiert fr\u00fchere als erwartete Generika-Erosion in globalen M\u00e4rkten.",
-        "bear_case_severity": 3,
+        "bear_case": "US-Kongress oder CMS erzwingt GLP-1-Preissenkungen via IRA-Verhandlungen fr\u00fcher als erwartet; oder FDA beschleunigt generische Zulassungen durch 505(b)(2)-Pathway, was das US-Moat-Argument kollabieren l\u00e4sst.",
+        "bear_case_severity": 5,
         "direction": "BULLISH"
       },
       "final_score": 0.1668
