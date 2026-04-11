@@ -44,10 +44,10 @@ def _gate_check(label: str, ok: bool) -> str:
     </td>"""
 
 
-def _metric(label: str, value: str, color: str = "#1d1d1f") -> str:
+def _metric(label: str, value: str, color: str = "#ffffff") -> str:
     return f"""
     <td style="text-align:center;padding:0 4px;">
-      <p style="font-size:11px;color:#86868b;text-transform:uppercase;
+      <p style="font-size:11px;color:#8e8e93;text-transform:uppercase;
                 letter-spacing:0.06em;margin:0 0 3px;">{label}</p>
       <p style="font-size:20px;font-weight:600;color:{color};margin:0;">{value}</p>
     </td>"""
@@ -108,7 +108,7 @@ def build_html(proposal: dict, today: str) -> str:
     ])
 
     now_str = datetime.utcnow().strftime("%A, %d. %B %Y · %H:%M MEZ")
-    mismatch_color = "#FF9F0A" if mismatch >= 5 else "#86868b"
+    mismatch_color = "#FF9F0A" if mismatch >= 5 else "#ffffff"
     hit_color      = "#30D158" if hit_rate >= 0.75 else "#FF9F0A"
 
     return f"""<!DOCTYPE html>
