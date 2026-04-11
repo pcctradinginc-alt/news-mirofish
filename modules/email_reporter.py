@@ -358,7 +358,7 @@ def send_email(proposals: list[dict], today: str) -> None:
     html_body = build_html(top, today)
 
     msg = MIMEMultipart("alternative")
-    msg["Subject"] = f"[Scanner] {ticker} · {top.get('strategy','—')} · {today}"
+    msg["Subject"] = f"{ticker} · {top.get('strategy','—').replace('_', ' ')} · news-mirofish"
     msg["From"]    = f"Asymmetry Scanner <{sender}>"
     msg["To"]      = recipient
 
