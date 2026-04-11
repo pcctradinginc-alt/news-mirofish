@@ -2,25 +2,25 @@
   "feature_stats": {
     "impact": {
       "low": {
-        "count": 17,
+        "count": 24,
         "avg_return": 0.0
       },
       "mid": {
-        "count": 17,
+        "count": 22,
         "avg_return": 0.0
       },
       "high": {
-        "count": 7,
+        "count": 9,
         "avg_return": 0.0
       }
     },
     "mismatch": {
       "weak": {
-        "count": 31,
+        "count": 42,
         "avg_return": 0.0
       },
       "good": {
-        "count": 10,
+        "count": 13,
         "avg_return": 0.0
       },
       "strong": {
@@ -30,7 +30,7 @@
     },
     "eps_drift": {
       "noise": {
-        "count": 41,
+        "count": 55,
         "avg_return": 0.0
       },
       "relevant": {
@@ -380,6 +380,36 @@
       "features": {
         "impact": 4,
         "surprise": 2,
+        "mismatch": 0.595,
+        "z_score": 0.681,
+        "sigma_30d": 0.0213,
+        "eps_drift": 0.0,
+        "bin_impact": "low",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "strategy": "LONG_CALL",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 980.0,
+        "bid": 74.0,
+        "ask": 77.3,
+        "last": 85.4,
+        "open_interest": 255,
+        "implied_vol": 0.41737948348999016,
+        "spread_ratio": 0.0427,
+        "dte": 131
+      },
+      "outcome": null,
+      "last_price": 939.47,
+      "current_return": 0.0
+    },
+    {
+      "ticker": "LLY",
+      "entry_date": "2026-04-11",
+      "features": {
+        "impact": 4,
+        "surprise": 3,
         "mismatch": 0.595,
         "z_score": 0.681,
         "sigma_30d": 0.0213,
