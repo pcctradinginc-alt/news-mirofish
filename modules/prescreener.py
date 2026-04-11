@@ -69,6 +69,7 @@ class Prescreener:
 
         prompt = USER_TEMPLATE.format(ticker_news=ticker_news_str)
 
+        response = None
         try:
             response = self.client.messages.create(
                 model=HAIKU_MODEL,
@@ -77,10 +78,23 @@ class Prescreener:
                 messages=[{"role": "user", "content": prompt}],
             )
             raw = response.content[0].text.strip()
+            # JSON aus Markdown-Block extrahieren
+            if "```" in raw:
+                parts = raw.split("```")
+                raw = parts[1] if len(parts) > 1 else raw
+                if raw.startswith("json"):
+                    raw = raw[4:].strip()
+            # Geschweifte Klammer suchen
+            if not raw.startswith("{"):
+                idx = raw.find("{")
+                if idx != -1:
+                    raw = raw[idx:]
             parsed = json.loads(raw)
             results = parsed.get("results", [])
         except Exception as e:
+            preview = response.content[0].text[:300] if response else "keine Antwort"
             log.error(f"Haiku Prescreening Fehler: {e}")
+            log.error(f"Haiku raw output: {preview}")
             return []
 
         # Nur [YES]-Ticker weiterleiten
