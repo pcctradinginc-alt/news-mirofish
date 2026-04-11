@@ -1,0 +1,26 @@
+{
+  "feature_stats": {
+    "impact": {
+      "low":  {"count": 0, "avg_return": 0.0},
+      "mid":  {"count": 0, "avg_return": 0.0},
+      "high": {"count": 0, "avg_return": 0.0}
+    },
+    "mismatch": {
+      "weak":   {"count": 0, "avg_return": 0.0},
+      "good":   {"count": 0, "avg_return": 0.0},
+      "strong": {"count": 0, "avg_return": 0.0}
+    },
+    "eps_drift": {
+      "noise":    {"count": 0, "avg_return": 0.0},
+      "relevant": {"count": 0, "avg_return": 0.0},
+      "massive":  {"count": 0, "avg_return": 0.0}
+    }
+  },
+  "active_trades": [],
+  "closed_trades": [],
+  "model_weights": {
+    "impact":    0.35,
+    "mismatch":  0.45,
+    "eps_drift": 0.20
+  }
+}
