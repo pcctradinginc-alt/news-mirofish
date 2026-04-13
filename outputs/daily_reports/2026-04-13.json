@@ -1,0 +1,155 @@
+{
+  "date": "2026-04-13",
+  "proposals": [
+    {
+      "ticker": "GOOGL",
+      "strategy": "LONG_PUT",
+      "iv_rank": 22.222222222222225,
+      "direction": "BEARISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 320.0,
+        "bid": 25.15,
+        "ask": 25.8,
+        "last": 25.02,
+        "open_interest": 1363,
+        "implied_vol": 0.3354558642578125,
+        "spread_ratio": 0.0252,
+        "dte": 129
+      },
+      "features": {
+        "impact": 5,
+        "surprise": 4,
+        "mismatch": 4.284,
+        "z_score": 0.143,
+        "sigma_30d": 0.019,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 287.56,
+        "current_price": 319.51,
+        "sigma_adj": 0.019,
+        "sector": "Communication Services",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "GOOGL",
+        "impact": 5,
+        "surprise": 4,
+        "mispricing_logic": "Der Markt interpretiert die App-Store-Fee-\u00c4nderung als isoliertes regulatorisches Zugest\u00e4ndnis, \u00fcbersieht aber den strategischen Signalwert: Google akzeptiert strukturell niedrigere Take-Rates unter Antitrust-Druck. Langfristig erodiert dies den Play-Store-Cashflow (~$10-12B/Jahr), der bisher als defensiv galt. Der 0.27%-Move zeigt klassische Underreaction auf strukturelle Margenkompression. AI-Wachstum \u00fcberlagert den negativen Aspekt im Narrativ.",
+        "catalyst": "N\u00e4chste Earnings (Q2 2025, erwartet Juli 2025): Analysten werden erstmals Play-Store-Margenkompression im Segment-Breakdown quantifizieren m\u00fcssen. Zus\u00e4tzlich: DOJ-Antitrust-Entscheidung zu Search-Monopol (Urteilsverk\u00fcndung Remedies-Phase Q3 2025).",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "AI-Monetarisierung (Search, Cloud, Gemini) \u00fcberkompensiert Play-Store-Verluste. David Abrams' Positionsreduktion ist taktisch, kein fundamentales Signal. EPS-Drift bei 0.0 zeigt keine Konsensrevision \u2013 Markt hat m\u00f6glicherweise Recht.",
+        "bear_case_severity": 6,
+        "direction": "BEARISH"
+      },
+      "final_score": 0.3678
+    },
+    {
+      "ticker": "AMZN",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 260.0,
+        "bid": 12.85,
+        "ask": 12.95,
+        "last": 12.9,
+        "open_interest": 46913,
+        "implied_vol": 0.373480386352539,
+        "spread_ratio": 0.0077,
+        "dte": 129
+      },
+      "features": {
+        "impact": 7,
+        "surprise": 5,
+        "mismatch": 2.124,
+        "z_score": 0.975,
+        "sigma_30d": 0.0202,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 261.95,
+        "current_price": 238.13,
+        "sigma_adj": 0.0202,
+        "sector": "Consumer Cyclical",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "AMZN",
+        "impact": 7,
+        "surprise": 5,
+        "mispricing_logic": "Der Markt bewertet das $50B-OpenAI-Investment als reinen Kapitalabfluss, nicht als strategischen Infrastruktur-Lock-in. AWS als Preferred Cloud f\u00fcr OpenAI generiert strukturelle Margenhebel durch LLM-Workloads. 1M Nvidia-Chips st\u00e4rken GPU-Kapazit\u00e4t vor Konkurrenten. Kursstieg von nur 1.97% reflektiert keine nachhaltige Re-Rating-Logik auf Forward-Multiples. EPS-Drift von 0 deutet auf fehlende Revision trotz fundamentaler Nachrichtenlage.",
+        "catalyst": "Q1 2025 Earnings (April/Mai 2025): AWS-Revenue-Guidance mit AI-Workload-Beitrag und Capex-Ratio-Kommentar des Managements erzwingt Analystensrevisionen nach oben.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Antitrust-Versch\u00e4rfung durch DOJ/FTC gegen Amazon-AI-Investments als wettbewerbswidrige Kapitalverflechtung. Gleichzeitig dr\u00fcckt massiver Capex (~$100B+ 2025) kurzfristig Free-Cash-Flow und belastet Bewertungsmultiples.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.3406
+    },
+    {
+      "ticker": "AAPL",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 280.0,
+        "bid": 8.4,
+        "ask": 8.55,
+        "last": 8.5,
+        "open_interest": 5538,
+        "implied_vol": 0.2707287283325196,
+        "spread_ratio": 0.0175,
+        "dte": 129
+      },
+      "features": {
+        "impact": 5,
+        "surprise": 3,
+        "mismatch": 1.325,
+        "z_score": 0.735,
+        "sigma_30d": 0.0131,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 283.71,
+        "current_price": 257.92,
+        "sigma_adj": 0.017,
+        "sector": "Technology",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "AAPL",
+        "impact": 5,
+        "surprise": 3,
+        "mispricing_logic": "Der Markt reagiert kaum (-0.96%) auf vage 'lucrative rollout'-Rhetorik, weil keine konkreten Produktdetails, Margen oder Zeitrahmen bekannt sind. EPS-Drift von 0.0 signalisiert Analystenkonsens ohne Revision \u2013 typisches Underreaction-Muster bei spekulativen Produktank\u00fcndigungen. Institutionelle Trimming-Aktivit\u00e4t (Englander) deutet auf kurzfristigen Verkaufsdruck, der fundamentale Neubewertung \u00fcberlagert. Der Markt wartet auf Verifikation statt antizipiert.",
+        "catalyst": "Apple Event oder Produktank\u00fcndigung Q1/Q2 2025 \u2013 konkrete Margenguidance oder Preispunkt-Disclosure des neuen Produkts zwingt Analysten zu EPS-Revisionen und l\u00f6st institutionelle Re-Allokation aus.",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "Institutionelles Trimming (Englander) signalisiert Smart-Money-Skepsis. Sollte das Produkt ein Nischenmarkt mit begrenztem TAM sein oder die Margen unter iPhone-Niveau liegen, kollabiert die Pr\u00e4misse vollst\u00e4ndig.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.2346
+    }
+  ]
+}

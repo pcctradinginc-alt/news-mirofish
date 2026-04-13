@@ -2,25 +2,25 @@
   "feature_stats": {
     "impact": {
       "low": {
-        "count": 24,
+        "count": 31,
         "avg_return": 0.0
       },
       "mid": {
-        "count": 22,
+        "count": 30,
         "avg_return": 0.0
       },
       "high": {
-        "count": 9,
+        "count": 11,
         "avg_return": 0.0
       }
     },
     "mismatch": {
       "weak": {
-        "count": 42,
+        "count": 55,
         "avg_return": 0.0
       },
       "good": {
-        "count": 13,
+        "count": 17,
         "avg_return": 0.0
       },
       "strong": {
@@ -30,7 +30,7 @@
     },
     "eps_drift": {
       "noise": {
-        "count": 55,
+        "count": 72,
         "avg_return": 0.0
       },
       "relevant": {
@@ -71,7 +71,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 939.47,
+      "last_price": 930.045,
       "current_return": 0.0
     },
     {
@@ -101,7 +101,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 629.86,
+      "last_price": 629.09,
       "current_return": 0.0
     },
     {
@@ -131,7 +131,7 @@
         "dte": 159
       },
       "outcome": null,
-      "last_price": 121.42,
+      "last_price": 119.33,
       "current_return": 0.0
     },
     {
@@ -161,7 +161,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 260.48,
+      "last_price": 258.02,
       "current_return": 0.0
     },
     {
@@ -191,7 +191,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 304.33,
+      "last_price": 310.26,
       "current_return": 0.0
     },
     {
@@ -221,7 +221,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 939.47,
+      "last_price": 930.045,
       "current_return": 0.0
     },
     {
@@ -251,7 +251,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 304.33,
+      "last_price": 310.26,
       "current_return": 0.0
     },
     {
@@ -281,7 +281,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 629.86,
+      "last_price": 629.09,
       "current_return": 0.0
     },
     {
@@ -311,7 +311,7 @@
         "dte": 159
       },
       "outcome": null,
-      "last_price": 121.42,
+      "last_price": 119.33,
       "current_return": 0.0
     },
     {
@@ -341,7 +341,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 260.48,
+      "last_price": 258.02,
       "current_return": 0.0
     },
     {
@@ -371,7 +371,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 348.95,
+      "last_price": 352.205,
       "current_return": 0.0
     },
     {
@@ -401,7 +401,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 939.47,
+      "last_price": 930.045,
       "current_return": 0.0
     },
     {
@@ -431,7 +431,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 939.47,
+      "last_price": 930.045,
       "current_return": 0.0
     },
     {
@@ -461,7 +461,97 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 939.47,
+      "last_price": 930.045,
+      "current_return": 0.0
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_date": "2026-04-13",
+      "features": {
+        "impact": 5,
+        "surprise": 4,
+        "mismatch": 4.284,
+        "z_score": 0.143,
+        "sigma_30d": 0.019,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "strategy": "LONG_PUT",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 320.0,
+        "bid": 25.15,
+        "ask": 25.8,
+        "last": 25.02,
+        "open_interest": 1363,
+        "implied_vol": 0.3354558642578125,
+        "spread_ratio": 0.0252,
+        "dte": 129
+      },
+      "outcome": null,
+      "last_price": 319.63,
+      "current_return": 0.0
+    },
+    {
+      "ticker": "AMZN",
+      "entry_date": "2026-04-13",
+      "features": {
+        "impact": 7,
+        "surprise": 5,
+        "mismatch": 2.124,
+        "z_score": 0.975,
+        "sigma_30d": 0.0202,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "strategy": "LONG_CALL",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 260.0,
+        "bid": 12.85,
+        "ask": 12.95,
+        "last": 12.9,
+        "open_interest": 46913,
+        "implied_vol": 0.373480386352539,
+        "spread_ratio": 0.0077,
+        "dte": 129
+      },
+      "outcome": null,
+      "last_price": 238.25,
+      "current_return": 0.0
+    },
+    {
+      "ticker": "AAPL",
+      "entry_date": "2026-04-13",
+      "features": {
+        "impact": 5,
+        "surprise": 3,
+        "mismatch": 1.325,
+        "z_score": 0.735,
+        "sigma_30d": 0.0131,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "strategy": "LONG_CALL",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 280.0,
+        "bid": 8.4,
+        "ask": 8.55,
+        "last": 8.5,
+        "open_interest": 5538,
+        "implied_vol": 0.2707287283325196,
+        "spread_ratio": 0.0175,
+        "dte": 129
+      },
+      "outcome": null,
+      "last_price": 257.99,
       "current_return": 0.0
     }
   ],
