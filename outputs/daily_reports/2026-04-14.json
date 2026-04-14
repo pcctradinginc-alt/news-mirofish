@@ -1,0 +1,255 @@
+{
+  "date": "2026-04-14",
+  "proposals": [
+    {
+      "ticker": "MRK",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 130.0,
+        "bid": 5.15,
+        "ask": 5.5,
+        "last": 5.3,
+        "open_interest": 2769,
+        "implied_vol": 0.2979196185302734,
+        "spread_ratio": 0.0636,
+        "dte": 156
+      },
+      "features": {
+        "impact": 8,
+        "surprise": 6,
+        "mismatch": 3.544,
+        "z_score": 0.891,
+        "sigma_30d": 0.0147,
+        "eps_drift": 0.0,
+        "bin_impact": "high",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 131.82,
+        "current_price": 119.84,
+        "sigma_adj": 0.0132,
+        "sector": "Healthcare",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "MRK",
+        "impact": 8,
+        "surprise": 6,
+        "mispricing_logic": "Der Markt fokussiert sich kurzfristig auf KEYTRUDA-Klippenrisiko 2028 und \u00fcbersieht, dass ein erfolgreicher oraler PCSK9-Inhibitor einen adressierbaren Markt von $20B+ erschlie\u00dft (Statine-resistente Patienten, Convenience-Vorteil gegen\u00fcber Injectables). Die Terns-Akquisition sichert zus\u00e4tzlich ein diversifiziertes metabolisches Portfolio. EPS-Drift von 0.0 deutet auf fehlende institutionelle Neupositionierung hin \u2013 Markt hat die kumulativen positiven Katalysatoren noch nicht aggregiert.",
+        "catalyst": "FDA-Einreichungszeitplan f\u00fcr oralen PCSK9 (voraussichtlich Q2-Q3 2025) sowie Terns-Deal-Closing mit Integration-Guidance im n\u00e4chsten Earnings-Call (Q1 2025 Results ~April 2025)",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "KEYTRUDA macht ~40% des Umsatzes aus. Biosimilar-Eintritt 2028 k\u00f6nnte $15B+ Revenue bedrohen. Orale PCSK9 k\u00f6nnte an Sicherheitsprofil oder Dosierung scheitern. Terns-Akquisition schafft Integrationsrisiko bei vollem Preis.",
+        "bear_case_severity": 7,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.4395
+    },
+    {
+      "ticker": "AVGO",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 400.0,
+        "bid": 34.45,
+        "ask": 35.2,
+        "last": 34.81,
+        "open_interest": 2495,
+        "implied_vol": 0.47711704528808596,
+        "spread_ratio": 0.0213,
+        "dte": 128
+      },
+      "features": {
+        "impact": 8,
+        "surprise": 4,
+        "mismatch": 3.543,
+        "z_score": 0.891,
+        "sigma_30d": 0.0274,
+        "eps_drift": 0.0,
+        "bin_impact": "high",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 418.75,
+        "current_price": 380.69,
+        "sigma_adj": 0.0356,
+        "sector": "Technology",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "AVGO",
+        "impact": 8,
+        "surprise": 4,
+        "mispricing_logic": "Der Markt underreactet auf die strukturelle Verschiebung: AVGOs Custom-ASIC-Gesch\u00e4ft (XPUs f\u00fcr Google, Meta, Apple) ist ein Oligopol mit hohen Switching Costs. Die $100B+ AI-Chip-Prognose reflektiert kein kurzfristiges Hype-Spike, sondern Multi-Year-Hyperscaler-Commitments. Der EPS-Drift von 0.0 deutet auf mangelnde Analyst-Revision trotz fundamentalem Paradigmenwechsel hin. Cohen-Verdopplung als Smart-Money-Signal verst\u00e4rkt These.",
+        "catalyst": "N\u00e4chstes Broadcom Earnings (Q1 FY2025, ca. M\u00e4rz 2025) mit potenziellem Guidance-Raise durch neue XPU-Design-Wins sowie m\u00f6gliche Ank\u00fcndigung eines weiteren Hyperscaler-Kunden f\u00fcr Custom-Silicon-Partnerschaft.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Seaport-Downgrade signalisiert reale Kapazit\u00e4tsgrenzen bei TSMC-Fertigung und Concentration-Risk bei wenigen Hyperscaler-Kunden. Verlust eines einzigen Gro\u00dfkunden (z.B. Google-Insourcing) w\u00fcrde Bewertung fundamental ersch\u00fcttern.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.4394
+    },
+    {
+      "ticker": "LLY",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 980.0,
+        "bid": 68.55,
+        "ask": 74.5,
+        "last": 72.0,
+        "open_interest": 255,
+        "implied_vol": 0.41673862075805657,
+        "spread_ratio": 0.0799,
+        "dte": 128
+      },
+      "features": {
+        "impact": 6,
+        "surprise": 5,
+        "mismatch": 5.06,
+        "z_score": 0.188,
+        "sigma_30d": 0.0194,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 1029.77,
+        "current_price": 936.15,
+        "sigma_adj": 0.0175,
+        "sector": "Healthcare",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "LLY",
+        "impact": 6,
+        "surprise": 5,
+        "mispricing_logic": "Die -0.37% Reaktion auf eine $7.8B strategische Akquisition deutet auf Marktignoranz hin. Centessa bringt potenzielle Pipeline-Assets (insb. SRP-9001-\u00e4hnliche Plattformen) in ein bereits dominierendes GLP-1/Inkretinsystem. Der Markt bewertet prim\u00e4r kurzfristige EPS-Dilution (~4-6% \u00fcber 24 Monate) und ignoriert den strategischen Optionswert: Centessa's ORX750 und weitere Pre-Clinical-Assets k\u00f6nnten LLYs Post-2028-Pipeline erheblich st\u00e4rken, wenn GLP-1-Patentexpirations n\u00e4her r\u00fccken.",
+        "catalyst": "Q2 2025 Earnings (voraussichtlich August 2025) mit erstem Management-Guidance-Update zur Centessa-Integration, Pipeline-Meilensteinen und revidierten R&D-Synergieprognosen. Zudem: FDA-Entscheidungen zu oralen GLP-1-Kandidaten als flankierende Katalysatoren.",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "Centessa-Assets scheitern in Phase-2/3-Trials; $7.8B wird als Kapitalvernichtung gewertet. Gleichzeitig dr\u00fccken Novo Nordisks Marktanteile und politischer Preisdruck (IRA Drug Negotiation) auf LLY-Margen und rechtfertigen Re-Rating nach unten.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.4377
+    },
+    {
+      "ticker": "ABBV",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 230.0,
+        "bid": 6.35,
+        "ask": 6.75,
+        "last": 6.4,
+        "open_interest": 516,
+        "implied_vol": 0.2898935757446288,
+        "spread_ratio": 0.0593,
+        "dte": 128
+      },
+      "features": {
+        "impact": 5,
+        "surprise": 4,
+        "mismatch": 4.052,
+        "z_score": 0.19,
+        "sigma_30d": 0.0162,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 229.43,
+        "current_price": 208.57,
+        "sigma_adj": 0.0146,
+        "sector": "Healthcare",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "ABBV",
+        "impact": 5,
+        "surprise": 4,
+        "mispricing_logic": "Der Markt hat die Obesity-Expansion von AbbVie noch nicht eingepreist, da ABBV prim\u00e4r als Post-Humira-Restrukturierungscase wahrgenommen wird. Der EPS-Drift von 0.0 signalisiert, dass Analysten ihre Modelle nicht angepasst haben. William Blairs Obesity-Thesis ist eine Second-Order-Opportunit\u00e4t: AbbVie besitzt Pipeline-Assets (Navacaprant, Neuroscience-Portfolio), die in Metabolismus/Obesity-Adjacenz expandieren k\u00f6nnten \u2013 vom Markt als spekulativ abgetan, obwohl fundamentaler Optionswert existiert.",
+        "catalyst": "AbbVie Q1 2025 Earnings Release (erwartet Ende April/Anfang Mai 2025) mit m\u00f6glichem Management-Guidance-Update zu Obesity-Pipeline und Skyrizi/Rinvoq-Wachstumsdynamik als prim\u00e4rer Repricing-Trigger.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Cantor Fitzgerald sieht schwache Pharma-Katalysatoren. Keine eigene klinisch validierte Obesity-Substanz in Late-Stage \u2013 die Thesis basiert auf spekulativer Pipeline-Adjacenz, nicht auf konkreten Phase-3-Daten. Humira-Erosion k\u00f6nnte Guidance belasten.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.3573
+    },
+    {
+      "ticker": "AAPL",
+      "strategy": "LONG_PUT",
+      "iv_rank": 22.222222222222225,
+      "direction": "BEARISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 260.0,
+        "bid": 16.5,
+        "ask": 16.7,
+        "last": 15.99,
+        "open_interest": 3775,
+        "implied_vol": 0.2598340618896484,
+        "spread_ratio": 0.012,
+        "dte": 128
+      },
+      "features": {
+        "impact": 4,
+        "surprise": 3,
+        "mismatch": 1.199,
+        "z_score": 0.56,
+        "sigma_30d": 0.0124,
+        "eps_drift": 0.0,
+        "bin_impact": "low",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 232.81,
+        "current_price": 258.68,
+        "sigma_adj": 0.0161,
+        "sector": "Technology",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "AAPL",
+        "impact": 4,
+        "surprise": 3,
+        "mispricing_logic": "Die 'Most Lucrative Product Rollout Ever'-Rhetorik ist medialer Hype ohne konkrete Revenue-Guidance. EPS-Drift von 0.0 signalisiert, dass Analysten keine fundamentale Revision vorgenommen haben. Der Markt reagiert korrekt skeptisch: Ohne spezifisches Produkt, Launch-Datum oder TAM-Sch\u00e4tzung ist dies kein Informations-Asymmetrie-Event, sondern clickbait-getriebenes Sentiment-Rauschen. Institutionelles Trimmen (Englander) verst\u00e4rkt den Gegenwind.",
+        "catalyst": "Apple Earnings-Call (n\u00e4chstes Quartal, ~Januar/Februar 2025) oder dediziertes Produkt-Announcement-Event mit konkreten Verkaufszahlen und Margenstruktur \u2013 erst dann erzwingen Analysten-Revisionen die Einpreisung.",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "Ohne konkrete Produktank\u00fcndigung bleibt die These spekulativ. Institutionelles Selling (Englander-Trimming), stagnierender EPS-Drift und makro\u00f6konomischer Gegenwind (USD-St\u00e4rke, China-Absatzrisiken) k\u00f6nnen jeden Kursanstieg sofort abw\u00fcrgen.",
+        "bear_case_severity": 7,
+        "direction": "BEARISH"
+      },
+      "final_score": 0.194
+    }
+  ]
+}
