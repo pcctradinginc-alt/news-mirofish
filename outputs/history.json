@@ -2,25 +2,25 @@
   "feature_stats": {
     "impact": {
       "low": {
-        "count": 39,
+        "count": 48,
         "avg_return": 0.0
       },
       "mid": {
-        "count": 40,
+        "count": 52,
         "avg_return": 0.0
       },
       "high": {
-        "count": 15,
+        "count": 20,
         "avg_return": 0.0
       }
     },
     "mismatch": {
       "weak": {
-        "count": 69,
+        "count": 84,
         "avg_return": 0.0
       },
       "good": {
-        "count": 25,
+        "count": 36,
         "avg_return": 0.0
       },
       "strong": {
@@ -30,7 +30,7 @@
     },
     "eps_drift": {
       "noise": {
-        "count": 94,
+        "count": 120,
         "avg_return": 0.0
       },
       "relevant": {
@@ -71,7 +71,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 936.15,
+      "last_price": 894.36,
       "current_return": 0.0
     },
     {
@@ -101,7 +101,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 663.755,
+      "last_price": 676.64,
       "current_return": 0.0
     },
     {
@@ -131,7 +131,7 @@
         "dte": 159
       },
       "outcome": null,
-      "last_price": 119.87,
+      "last_price": 117.335,
       "current_return": 0.0
     },
     {
@@ -161,7 +161,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 258.66,
+      "last_price": 265.34,
       "current_return": 0.0
     },
     {
@@ -191,7 +191,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 316.46,
+      "last_price": 312.17,
       "current_return": 0.0
     },
     {
@@ -221,7 +221,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 936.15,
+      "last_price": 894.36,
       "current_return": 0.0
     },
     {
@@ -251,7 +251,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 316.46,
+      "last_price": 312.17,
       "current_return": 0.0
     },
     {
@@ -281,7 +281,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 663.755,
+      "last_price": 676.64,
       "current_return": 0.0
     },
     {
@@ -311,7 +311,7 @@
         "dte": 159
       },
       "outcome": null,
-      "last_price": 119.87,
+      "last_price": 117.335,
       "current_return": 0.0
     },
     {
@@ -341,7 +341,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 258.66,
+      "last_price": 265.34,
       "current_return": 0.0
     },
     {
@@ -371,7 +371,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 366.56,
+      "last_price": 391.6368,
       "current_return": 0.0
     },
     {
@@ -401,7 +401,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 936.15,
+      "last_price": 894.36,
       "current_return": 0.0
     },
     {
@@ -431,7 +431,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 936.15,
+      "last_price": 894.36,
       "current_return": 0.0
     },
     {
@@ -461,7 +461,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 936.15,
+      "last_price": 894.36,
       "current_return": 0.0
     },
     {
@@ -491,7 +491,7 @@
         "dte": 129
       },
       "outcome": null,
-      "last_price": 332.215,
+      "last_price": 334.49,
       "current_return": 0.0
     },
     {
@@ -521,7 +521,7 @@
         "dte": 129
       },
       "outcome": null,
-      "last_price": 250.295,
+      "last_price": 248.51,
       "current_return": 0.0
     },
     {
@@ -551,7 +551,7 @@
         "dte": 129
       },
       "outcome": null,
-      "last_price": 258.69,
+      "last_price": 265.34,
       "current_return": 0.0
     },
     {
@@ -581,7 +581,7 @@
         "dte": 156
       },
       "outcome": null,
-      "last_price": 119.87,
+      "last_price": 117.335,
       "current_return": 0.0
     },
     {
@@ -611,7 +611,7 @@
         "dte": 128
       },
       "outcome": null,
-      "last_price": 380.73,
+      "last_price": 394.1895,
       "current_return": 0.0
     },
     {
@@ -641,7 +641,7 @@
         "dte": 128
       },
       "outcome": null,
-      "last_price": 936.15,
+      "last_price": 894.36,
       "current_return": 0.0
     },
     {
@@ -671,7 +671,7 @@
         "dte": 128
       },
       "outcome": null,
-      "last_price": 208.575,
+      "last_price": 205.89,
       "current_return": 0.0
     },
     {
@@ -701,7 +701,127 @@
         "dte": 128
       },
       "outcome": null,
-      "last_price": 258.69,
+      "last_price": 265.34,
+      "current_return": 0.0
+    },
+    {
+      "ticker": "JNJ",
+      "entry_date": "2026-04-15",
+      "features": {
+        "impact": 6,
+        "surprise": 5,
+        "mismatch": 5.167,
+        "z_score": 0.167,
+        "sigma_30d": 0.0095,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "strategy": "LONG_CALL",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 250.0,
+        "bid": 9.4,
+        "ask": 9.9,
+        "last": 9.8,
+        "open_interest": 4005,
+        "implied_vol": 0.2406081799316406,
+        "spread_ratio": 0.0505,
+        "dte": 155
+      },
+      "outcome": null,
+      "last_price": 237.52,
+      "current_return": 0.0
+    },
+    {
+      "ticker": "UNH",
+      "entry_date": "2026-04-15",
+      "features": {
+        "impact": 5,
+        "surprise": 3,
+        "mismatch": 4.478,
+        "z_score": 0.104,
+        "sigma_30d": 0.022,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "strategy": "LONG_CALL",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 330.0,
+        "bid": 18.7,
+        "ask": 19.05,
+        "last": 19.45,
+        "open_interest": 2810,
+        "implied_vol": 0.3555362298583984,
+        "spread_ratio": 0.0184,
+        "dte": 127
+      },
+      "outcome": null,
+      "last_price": 312.17,
+      "current_return": 0.0
+    },
+    {
+      "ticker": "AVGO",
+      "entry_date": "2026-04-15",
+      "features": {
+        "impact": 8,
+        "surprise": 4,
+        "mismatch": 1.25,
+        "z_score": 1.35,
+        "sigma_30d": 0.0277,
+        "eps_drift": 0.0,
+        "bin_impact": "high",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "strategy": "LONG_CALL",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 400.0,
+        "bid": 42.0,
+        "ask": 42.6,
+        "last": 42.27,
+        "open_interest": 2464,
+        "implied_vol": 0.48543300216674806,
+        "spread_ratio": 0.0141,
+        "dte": 127
+      },
+      "outcome": null,
+      "last_price": 394.1895,
+      "current_return": 0.0
+    },
+    {
+      "ticker": "ABBV",
+      "entry_date": "2026-04-15",
+      "features": {
+        "impact": 4,
+        "surprise": 3,
+        "mismatch": 3.22,
+        "z_score": 0.156,
+        "sigma_30d": 0.0168,
+        "eps_drift": 0.0,
+        "bin_impact": "low",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "strategy": "LONG_CALL",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 230.0,
+        "bid": 6.25,
+        "ask": 6.65,
+        "last": 6.57,
+        "open_interest": 513,
+        "implied_vol": 0.3078682495117187,
+        "spread_ratio": 0.0602,
+        "dte": 127
+      },
+      "outcome": null,
+      "last_price": 205.89,
       "current_return": 0.0
     }
   ],

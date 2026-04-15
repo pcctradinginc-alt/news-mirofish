@@ -1,0 +1,205 @@
+{
+  "date": "2026-04-15",
+  "proposals": [
+    {
+      "ticker": "JNJ",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 250.0,
+        "bid": 9.4,
+        "ask": 9.9,
+        "last": 9.8,
+        "open_interest": 4005,
+        "implied_vol": 0.2406081799316406,
+        "spread_ratio": 0.0505,
+        "dte": 155
+      },
+      "features": {
+        "impact": 6,
+        "surprise": 5,
+        "mismatch": 5.167,
+        "z_score": 0.167,
+        "sigma_30d": 0.0095,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 261.29,
+        "current_price": 237.54,
+        "sigma_adj": 0.0085,
+        "sector": "Healthcare",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "JNJ",
+        "impact": 6,
+        "surprise": 5,
+        "mispricing_logic": "Der Markt hat die Talc-Verdikt-Umkehr ($950M Strafschadenersatz gestrichen) strukturell untersch\u00e4tzt: Die verbleibenden $16M signalisieren, dass das Worst-Case-Szenario (Billionen in aggregierten Punitive Damages) juristisch nicht haltbar ist. Gleichzeitig wird TECVAYLI's Marktdurchdringung im Myelom-Segment durch die Underreaction auf Barclays/HSBC-Upgrades belegt. EPS-Drift von 0.0 deutet auf fehlende Revisions-Dynamik trotz positiver Katalysatoren hin.",
+        "catalyst": "Q3 2025 Earnings Release (erwarteter Berichtstermin Oktober 2025) mit TECVAYLI-Umsatzdaten und expliziter Guidance-Anhebung zur Talc-Haftungsminimierung; zus\u00e4tzlich m\u00f6glicher Supreme-Court-Entscheid zu JNJs Chapter-11-Settlement-Strategie (Kenvue-Spin-off-Nachfolge).",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "Weitere Bundesstaats-Klagen k\u00f6nnten Talc-Haftung neu entfachen. TECVAYLI k\u00e4mpft gegen Konkurrenz (CARVYKTI, Daratumumab). Makro: IRA-Preisverhandlungen k\u00f6nnten Pharma-Margen 2026 strukturell belasten.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.4425
+    },
+    {
+      "ticker": "UNH",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 330.0,
+        "bid": 18.7,
+        "ask": 19.05,
+        "last": 19.45,
+        "open_interest": 2810,
+        "implied_vol": 0.3555362298583984,
+        "spread_ratio": 0.0184,
+        "dte": 127
+      },
+      "features": {
+        "impact": 5,
+        "surprise": 3,
+        "mismatch": 4.478,
+        "z_score": 0.104,
+        "sigma_30d": 0.022,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 343.37,
+        "current_price": 312.15,
+        "sigma_adj": 0.0198,
+        "sector": "Healthcare",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "UNH",
+        "impact": 5,
+        "surprise": 3,
+        "mispricing_logic": "Der Markt \u00fcbergewichtet kurzfristige operative Probleme (erh\u00f6hte Medical Loss Ratio, CEO-Nachfolge, DOJ-Ermittlungen) und ignoriert strukturell stabiles Repricing-Potenzial sowie den Forward-EPS von 20.14 bei KGV-Normalisierung. Analyst-Upgrade und Investoren-Treue (Patient Opportunity) signalisieren institutionelles Smart-Money-Interesse \u2013 klassisches Sentiment-Overshoot nach fundamentaler Underperformance. EPS-Drift von 0.0 deutet auf fehlende positive Revision, also kein echter Momentum-Trigger bisher.",
+        "catalyst": "Q1 2026 Earnings Release (erwartet April/Mai 2026) mit potenziellem MLR-Verbesserungssignal und Management-Guidance-Update zur AI-Effizienzinitiative; jede positive Abweichung von ca. 20% Short-Interest erzwingt Re-Rating.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "DOJ/CMS-Ermittlungen zu Medicare Advantage Billing-Praktiken eskalieren; gleichzeitig bleibt MLR strukturell erh\u00f6ht durch Post-COVID-Nutzungsanstieg \u2013 Forward-EPS von 20.14 wird aggressiv nach unten revidiert, Dividendensicherheit fraglich.",
+        "bear_case_severity": 7,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.3765
+    },
+    {
+      "ticker": "AVGO",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 400.0,
+        "bid": 42.0,
+        "ask": 42.6,
+        "last": 42.27,
+        "open_interest": 2464,
+        "implied_vol": 0.48543300216674806,
+        "spread_ratio": 0.0141,
+        "dte": 127
+      },
+      "features": {
+        "impact": 8,
+        "surprise": 4,
+        "mismatch": 1.25,
+        "z_score": 1.35,
+        "sigma_30d": 0.0277,
+        "eps_drift": 0.0,
+        "bin_impact": "high",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 0.9921,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 433.28,
+        "current_price": 393.89,
+        "sigma_adj": 0.036,
+        "sector": "Technology",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "AVGO",
+        "impact": 8,
+        "surprise": 4,
+        "mispricing_logic": "Der Markt diskontiert den $100B+ AI-Chip-Forecast unvollst\u00e4ndig, weil der Konsens zwischen strukturellem Wachstum (Custom ASIC f\u00fcr Hyperscaler) und kurzfristiger Bewertungsangst schwankt. Der EPS-Drift von 0.0 signalisiert, dass Analysten ihre Modelle trotz massiver Kapazit\u00e4tsnachfrage nicht aggressiv angehoben haben. Steve Cohens Verdopplung des Stakes deutet auf institutionelle Informations-Asymmetrie hin \u2013 Insiders sehen ASIC-Vertr\u00e4ge, die der Markt noch nicht fully-priced.",
+        "catalyst": "N\u00e4chstes Earnings-Call (Q1 FY2025, erwartet ~M\u00e4rz 2025): Broadcom wird konkrete Custom-ASIC-Revenue-Guidance f\u00fcr Hyperscaler-Partner (Google, Meta) bekannt geben und die $100B-TAM-Sch\u00e4tzung validieren oder revidieren.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Seaport-Downgrade warnt vor Industry-Limits: Hyperscaler-CapEx-Zyklen k\u00f6nnen abrupt enden. Konzentration auf wenige ASIC-Kunden (Google TPU, Meta) erzeugt Klumpenrisiko. Multiple-Kompression bei Zinsanstieg m\u00f6glich.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.3362
+    },
+    {
+      "ticker": "ABBV",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 230.0,
+        "bid": 6.25,
+        "ask": 6.65,
+        "last": 6.57,
+        "open_interest": 513,
+        "implied_vol": 0.3078682495117187,
+        "spread_ratio": 0.0602,
+        "dte": 127
+      },
+      "features": {
+        "impact": 4,
+        "surprise": 3,
+        "mismatch": 3.22,
+        "z_score": 0.156,
+        "sigma_30d": 0.0168,
+        "eps_drift": 0.0,
+        "bin_impact": "low",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 226.48,
+        "current_price": 205.89,
+        "sigma_adj": 0.0151,
+        "sector": "Healthcare",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "ABBV",
+        "impact": 4,
+        "surprise": 3,
+        "mispricing_logic": "Der Markt verarbeitet die Obesity-Opportunit\u00e4t f\u00fcr ABBV nicht als nahen Katalysator, sondern als spekulatives Langfrist-Narrativ. AbbVies Kernportfolio (Skyrizi, Rinvoq) liefert solides Wachstum, aber der Markt diskontiert dies bereits. Das Obesity-Exposure ist fr\u00fch-phasig und kompetitiv dominiert durch Novo/Lilly. Cantor Fitzgeralds Downgrade verweist auf schwache nahe Katalysatoren \u2013 der Markt k\u00f6nnte \u00dcbergangsphase zwischen Humira-Erosion und neuen Wachstumstreibern underestimieren.",
+        "catalyst": "Quartalsergebnis-Release (Q1 2025 Earnings): Guidance-Best\u00e4tigung oder Erh\u00f6hung zu Skyrizi/Rinvoq-Revenues plus erste klinische Updates zu Obesity-Pipeline w\u00e4ren prim\u00e4rer Re-Rating-Trigger.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Cantor Fitzgerald sieht schwache nahe Katalysatoren. Humira-Biosimilar-Erosion belastet Cashflow. Obesity-Pipeline ist fr\u00fch und kompetitiv hoffnungslos gegen GLP-1-Marktf\u00fchrer. EPS-Drift von 0.0 signalisiert keine positive Revision-Dynamik.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.2849
+    }
+  ]
+}
