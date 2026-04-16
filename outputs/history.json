@@ -2,35 +2,35 @@
   "feature_stats": {
     "impact": {
       "low": {
-        "count": 48,
+        "count": 57,
         "avg_return": 0.0
       },
       "mid": {
-        "count": 52,
+        "count": 68,
         "avg_return": 0.0
       },
       "high": {
-        "count": 20,
+        "count": 25,
         "avg_return": 0.0
       }
     },
     "mismatch": {
       "weak": {
-        "count": 84,
+        "count": 100,
         "avg_return": 0.0
       },
       "good": {
-        "count": 36,
+        "count": 49,
         "avg_return": 0.0
       },
       "strong": {
-        "count": 0,
+        "count": 1,
         "avg_return": 0.0
       }
     },
     "eps_drift": {
       "noise": {
-        "count": 120,
+        "count": 150,
         "avg_return": 0.0
       },
       "relevant": {
@@ -71,7 +71,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 894.36,
+      "last_price": 902.735,
       "current_return": 0.0
     },
     {
@@ -101,7 +101,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 676.64,
+      "last_price": 674.3501,
       "current_return": 0.0
     },
     {
@@ -131,7 +131,7 @@
         "dte": 159
       },
       "outcome": null,
-      "last_price": 117.335,
+      "last_price": 115.4,
       "current_return": 0.0
     },
     {
@@ -161,7 +161,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 265.34,
+      "last_price": 263.18,
       "current_return": 0.0
     },
     {
@@ -191,7 +191,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 312.17,
+      "last_price": 315.29,
       "current_return": 0.0
     },
     {
@@ -221,7 +221,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 894.36,
+      "last_price": 902.735,
       "current_return": 0.0
     },
     {
@@ -251,7 +251,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 312.17,
+      "last_price": 315.29,
       "current_return": 0.0
     },
     {
@@ -281,7 +281,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 676.64,
+      "last_price": 674.3501,
       "current_return": 0.0
     },
     {
@@ -311,7 +311,7 @@
         "dte": 159
       },
       "outcome": null,
-      "last_price": 117.335,
+      "last_price": 115.4,
       "current_return": 0.0
     },
     {
@@ -341,7 +341,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 265.34,
+      "last_price": 263.18,
       "current_return": 0.0
     },
     {
@@ -371,7 +371,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 391.6368,
+      "last_price": 388.6,
       "current_return": 0.0
     },
     {
@@ -401,7 +401,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 894.36,
+      "last_price": 902.735,
       "current_return": 0.0
     },
     {
@@ -431,7 +431,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 894.36,
+      "last_price": 902.735,
       "current_return": 0.0
     },
     {
@@ -461,7 +461,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 894.36,
+      "last_price": 902.735,
       "current_return": 0.0
     },
     {
@@ -491,7 +491,7 @@
         "dte": 129
       },
       "outcome": null,
-      "last_price": 334.49,
+      "last_price": 337.38,
       "current_return": 0.0
     },
     {
@@ -521,7 +521,7 @@
         "dte": 129
       },
       "outcome": null,
-      "last_price": 248.51,
+      "last_price": 248.43,
       "current_return": 0.0
     },
     {
@@ -551,7 +551,7 @@
         "dte": 129
       },
       "outcome": null,
-      "last_price": 265.34,
+      "last_price": 263.18,
       "current_return": 0.0
     },
     {
@@ -581,7 +581,7 @@
         "dte": 156
       },
       "outcome": null,
-      "last_price": 117.335,
+      "last_price": 115.4,
       "current_return": 0.0
     },
     {
@@ -611,7 +611,7 @@
         "dte": 128
       },
       "outcome": null,
-      "last_price": 394.1895,
+      "last_price": 397.865,
       "current_return": 0.0
     },
     {
@@ -641,7 +641,7 @@
         "dte": 128
       },
       "outcome": null,
-      "last_price": 894.36,
+      "last_price": 902.735,
       "current_return": 0.0
     },
     {
@@ -671,7 +671,7 @@
         "dte": 128
       },
       "outcome": null,
-      "last_price": 205.89,
+      "last_price": 208.78,
       "current_return": 0.0
     },
     {
@@ -701,7 +701,7 @@
         "dte": 128
       },
       "outcome": null,
-      "last_price": 265.34,
+      "last_price": 263.18,
       "current_return": 0.0
     },
     {
@@ -731,7 +731,7 @@
         "dte": 155
       },
       "outcome": null,
-      "last_price": 237.52,
+      "last_price": 232.68,
       "current_return": 0.0
     },
     {
@@ -761,7 +761,7 @@
         "dte": 127
       },
       "outcome": null,
-      "last_price": 312.17,
+      "last_price": 315.29,
       "current_return": 0.0
     },
     {
@@ -791,7 +791,7 @@
         "dte": 127
       },
       "outcome": null,
-      "last_price": 394.1895,
+      "last_price": 397.865,
       "current_return": 0.0
     },
     {
@@ -821,7 +821,127 @@
         "dte": 127
       },
       "outcome": null,
-      "last_price": 205.89,
+      "last_price": 208.78,
+      "current_return": 0.0
+    },
+    {
+      "ticker": "NVDA",
+      "entry_date": "2026-04-16",
+      "features": {
+        "impact": 6,
+        "surprise": 3,
+        "mismatch": 3.803,
+        "z_score": 0.439,
+        "sigma_30d": 0.0217,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "strategy": "LONG_CALL",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 200.0,
+        "bid": 18.9,
+        "ask": 19.0,
+        "last": 19.15,
+        "open_interest": 14083,
+        "implied_vol": 0.42102629760742194,
+        "spread_ratio": 0.0053,
+        "dte": 126
+      },
+      "outcome": null,
+      "last_price": 198.39,
+      "current_return": 0.0
+    },
+    {
+      "ticker": "UNH",
+      "entry_date": "2026-04-16",
+      "features": {
+        "impact": 5,
+        "surprise": 3,
+        "mismatch": 4.184,
+        "z_score": 0.163,
+        "sigma_30d": 0.0219,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "strategy": "LONG_CALL",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 330.0,
+        "bid": 19.65,
+        "ask": 19.9,
+        "last": 19.85,
+        "open_interest": 2807,
+        "implied_vol": 0.3497379479980468,
+        "spread_ratio": 0.0126,
+        "dte": 126
+      },
+      "outcome": null,
+      "last_price": 315.29,
+      "current_return": 0.0
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_date": "2026-04-16",
+      "features": {
+        "impact": 5,
+        "surprise": 3,
+        "mismatch": 1.566,
+        "z_score": 0.687,
+        "sigma_30d": 0.0197,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "strategy": "LONG_CALL",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 350.0,
+        "bid": 24.3,
+        "ask": 24.45,
+        "last": 24.55,
+        "open_interest": 7338,
+        "implied_vol": 0.3742738354492187,
+        "spread_ratio": 0.0061,
+        "dte": 126
+      },
+      "outcome": null,
+      "last_price": 337.36,
+      "current_return": 0.0
+    },
+    {
+      "ticker": "AMZN",
+      "entry_date": "2026-04-16",
+      "features": {
+        "impact": 7,
+        "surprise": 5,
+        "mismatch": 6.475,
+        "z_score": 0.105,
+        "sigma_30d": 0.0207,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "strong",
+        "bin_eps_drift": "noise"
+      },
+      "strategy": "LONG_CALL",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 260.0,
+        "bid": 17.6,
+        "ask": 17.75,
+        "last": 17.9,
+        "open_interest": 50681,
+        "implied_vol": 0.3848938464355468,
+        "spread_ratio": 0.0085,
+        "dte": 126
+      },
+      "outcome": null,
+      "last_price": 248.43,
       "current_return": 0.0
     }
   ],

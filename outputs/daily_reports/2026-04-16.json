@@ -1,0 +1,205 @@
+{
+  "date": "2026-04-16",
+  "proposals": [
+    {
+      "ticker": "NVDA",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 200.0,
+        "bid": 18.9,
+        "ask": 19.0,
+        "last": 19.15,
+        "open_interest": 14083,
+        "implied_vol": 0.42102629760742194,
+        "spread_ratio": 0.0053,
+        "dte": 126
+      },
+      "features": {
+        "impact": 6,
+        "surprise": 3,
+        "mismatch": 3.803,
+        "z_score": 0.439,
+        "sigma_30d": 0.0217,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 218.29,
+        "current_price": 198.44,
+        "sigma_adj": 0.0282,
+        "sector": "Technology",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "NVDA",
+        "impact": 6,
+        "surprise": 3,
+        "mispricing_logic": "Der Markt zeigt nur +0.95% trotz konvergierende Signale: Billionaire-K\u00e4ufe (Dalio, Cohen), PT-Erh\u00f6hung Raymond James und Sovereign-AI-Deal mit Palantir. EPS-Drift von 0.0 deutet auf Analysten-Konsensus ohne Revisionen, obwohl Sovereign-AI-Vertr\u00e4ge strukturell h\u00f6here Margen als Cloud-Hyperscaler-Deals haben. Der Markt untersch\u00e4tzt den TAM-Expansion-Effekt staatlicher KI-Budgets \u2013 diese sind weniger zyklisch und werden politisch verteidigt.",
+        "catalyst": "NVDA Q2 FY2026 Earnings (erwartet ~August 2025) mit explizitem Sovereign-AI-Revenue-Breakdown; alternativ Palantir-Joint-Announcement zu konkreten Regierungsvertr\u00e4gen mit benannten Staaten als Kunden",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "US-Exportkontrollen (BIS-Regelwerk) k\u00f6nnten Sovereign-AI-Deals in Drittstaaten blockieren. H\u00f6here Bewertung (~30x Forward P/E) l\u00e4sst wenig Fehlertoleranz. Makro-Zinsanstieg komprimiert Growth-Multiples sofort.",
+        "bear_case_severity": 7,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.3811
+    },
+    {
+      "ticker": "UNH",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 330.0,
+        "bid": 19.65,
+        "ask": 19.9,
+        "last": 19.85,
+        "open_interest": 2807,
+        "implied_vol": 0.3497379479980468,
+        "spread_ratio": 0.0126,
+        "dte": 126
+      },
+      "features": {
+        "impact": 5,
+        "surprise": 3,
+        "mismatch": 4.184,
+        "z_score": 0.163,
+        "sigma_30d": 0.0219,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 346.82,
+        "current_price": 315.29,
+        "sigma_adj": 0.0198,
+        "sector": "Healthcare",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "UNH",
+        "impact": 5,
+        "surprise": 3,
+        "mispricing_logic": "Der Markt \u00fcbergewichtet kurzfristige operative Probleme (h\u00f6here Medical Loss Ratios, Compliance-Kosten) und untersch\u00e4tzt die strukturelle Repricing-F\u00e4higkeit von UNH sowie den langfristigen Effizienzgewinn durch AI. EPS-Drift von 0.0 signalisiert, dass Analysten keine weiteren Abw\u00e4rtsrevisionen erwarten \u2013 der Selloff von 18% YTD erscheint \u00fcbertrieben relativ zu Forward-EPS von ~20. Konsens bei 1.72 ist stark bullish, aber Sentiment bleibt gedr\u00fcckt durch Regulierungsangst.",
+        "catalyst": "Q1 2026 Earnings Release (voraussichtlich April 2026): Nachweis einer stabilisierten oder verbesserten Medical Loss Ratio sowie erste messbare AI-Effizienzgewinne w\u00fcrden Analysten-Upgrades und Short-Covering erzwingen.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Anhaltend hohe Medical Loss Ratios durch Nutzungsintensivierung, CMS-Regulierungsdruck auf Medicare Advantage Reimbursements und m\u00f6gliche DOJ-Untersuchungen zu Abrechnungspraktiken k\u00f6nnten EPS-Sch\u00e4tzungen nochmals deutlich reduzieren.",
+        "bear_case_severity": 7,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.3633
+    },
+    {
+      "ticker": "GOOGL",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 350.0,
+        "bid": 24.3,
+        "ask": 24.45,
+        "last": 24.55,
+        "open_interest": 7338,
+        "implied_vol": 0.3742738354492187,
+        "spread_ratio": 0.0061,
+        "dte": 126
+      },
+      "features": {
+        "impact": 5,
+        "surprise": 3,
+        "mismatch": 1.566,
+        "z_score": 0.687,
+        "sigma_30d": 0.0197,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 371.15,
+        "current_price": 337.41,
+        "sigma_adj": 0.0197,
+        "sector": "Communication Services",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "GOOGL",
+        "impact": 5,
+        "surprise": 3,
+        "mispricing_logic": "Der Markt preist die Intel-Partnership und Cybersecurity-Expansion als inkrementelle Entwicklungen ein, nicht als strukturellen Shift. Die eigentliche Asymmetrie liegt darin, dass GOOGL's Cloud-Segment (GCP) weiterhin systematisch unterbewertet wird relativ zu AWS/Azure, obwohl AI-Infrastruktur-Partnerschaften den TAM beschleunigen. EPS-Drift von 0.0 signalisiert keine Revisionen \u2013 der Markt ignoriert die Margenhebel aus Cybersecurity-Skalierung. Cramer-Noise \u00fcberdeckt fundamentales Signal.",
+        "catalyst": "N\u00e4chster Quarterly Earnings Report (erwartet Q1 2025, ca. April) \u2013 GCP-Wachstumsrate und Cybersecurity-Revenue-Beitrag werden erstmals separat sichtbar. Analyst-Konsens bei 1.37 deutet auf breite Buy-Empfehlung hin, die bei Beat zu Coverage-Upgrades f\u00fchrt.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "DOJ-Kartellverfahren (Search-Monopol-Urteil) k\u00f6nnte strukturelle Zerschlagung erzwingen. Abrams-Reduktion signalisiert m\u00f6glicherweise Insider-Skepsis gegen\u00fcber AI-Monetarisierungstimeline. Regulatorischer Overhang bleibt der dominante Risikofaktor.",
+        "bear_case_severity": 7,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.2455
+    },
+    {
+      "ticker": "AMZN",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 260.0,
+        "bid": 17.6,
+        "ask": 17.75,
+        "last": 17.9,
+        "open_interest": 50681,
+        "implied_vol": 0.3848938464355468,
+        "spread_ratio": 0.0085,
+        "dte": 126
+      },
+      "features": {
+        "impact": 7,
+        "surprise": 5,
+        "mismatch": 6.475,
+        "z_score": 0.105,
+        "sigma_30d": 0.0207,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "strong",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 273.31,
+        "current_price": 248.46,
+        "sigma_adj": 0.0207,
+        "sector": "Consumer Cyclical",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "AMZN",
+        "impact": 7,
+        "surprise": 5,
+        "mispricing_logic": "Der Markt interpretiert das $50B OpenAI-Investment als Capital-Allocation-Risiko statt als strategischen Moat-Aufbau. AWS-Konkurrenz zu Azure/GCP erfordert zwingende AI-Infrastruktur-Bindung. Markt preist kurzfristigen FCF-Druck, untersch\u00e4tzt jedoch Plattform-Lock-in-Effekt: OpenAI-Workloads laufen prim\u00e4r auf AWS. EPS-Drift von 0.0 signalisiert Konsens-Stagnation trotz strukturellem AI-Umsatzwachstum. Unusual Options-Volumen deutet auf informierte Akteure hin.",
+        "catalyst": "AMZN Q1 2025 Earnings (ca. 2 Wochen laut Headlines) \u2013 AWS-Umsatzwachstum und AI-Segment-Guidance werden OpenAI-Deal-Synergien erstmals quantifiziert; Nvidia-Chip-Deal (1M Chips) impliziert Kapazit\u00e4tsausbau, der in Guidance reflektiert wird.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "DOJ/FTC k\u00f6nnten OpenAI-Investment als wettbewerbswidrige Exklusivbindung anfechten. Gleichzeitig steigt CapEx massiv, w\u00e4hrend Konsumr\u00fcckgang (Makro) AWS-Wachstum abbremst \u2013 FCF-Kompression bei gleichzeitiger Regulierungsexposition.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.0675
+    }
+  ]
+}
