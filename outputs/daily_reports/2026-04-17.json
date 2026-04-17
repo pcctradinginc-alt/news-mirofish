@@ -1,0 +1,355 @@
+{
+  "date": "2026-04-17",
+  "proposals": [
+    {
+      "ticker": "MRK",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 130.0,
+        "bid": 4.15,
+        "ask": 4.4,
+        "last": 4.15,
+        "open_interest": 2854,
+        "implied_vol": 0.2933420275878905,
+        "spread_ratio": 0.0568,
+        "dte": 153
+      },
+      "features": {
+        "impact": 7,
+        "surprise": 6,
+        "mismatch": 5.409,
+        "z_score": 0.318,
+        "sigma_30d": 0.0133,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 129.06,
+        "current_price": 117.33,
+        "sigma_adj": 0.012,
+        "sector": "Healthcare",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "MRK",
+        "impact": 7,
+        "surprise": 6,
+        "mispricing_logic": "Der Markt reagiert mit -0.42% trotz zweier signifikanter Katalysatoren: positive Phase-3-Daten f\u00fcr Oral PCSK9 (potenziell Multi-Milliarden-Markt, da erste orale Alternative zu Injektions-PCSK9-Hemmern) und die Terns-Akquisition als Pipeline-Erweiterung. Der Markt \u00fcbergewichtet kurzfristig den Akquisitionspreis von $6.7B als Kapitalabfluss, untersch\u00e4tzt jedoch den strategischen Langzeitwert eines differenzierten oralen Verabreichungswegs im hart umk\u00e4mpften Kardiovaskul\u00e4r-Segment.",
+        "catalyst": "FDA-Einreichungs-Deadline f\u00fcr Oral PCSK9 NDA (voraussichtlich Q2/Q3 2025) sowie Terns-Deal-Closing-Ank\u00fcndigung mit detailliertem Pipeline-Readout; n\u00e4chster Earnings Call als Neubewertungs-Trigger f\u00fcr Forward-Guidance-Anhebung.",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "Keytruda-Patentablauf 2028 dominiert strukturell den Bewertungsdiskurs. Der Akquisitionspreis von $6.7B k\u00f6nnte bei Phase-2/3-Transition-Misserfolg der Terns-Assets wertvernichtend sein. EPS-Drift von 0.0 signalisiert fehlende Momentum-Beschleunigung.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.4884
+    },
+    {
+      "ticker": "AVGO",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 440.0,
+        "bid": 30.2,
+        "ask": 30.85,
+        "last": 30.41,
+        "open_interest": 1530,
+        "implied_vol": 0.47296669616699216,
+        "spread_ratio": 0.0211,
+        "dte": 125
+      },
+      "features": {
+        "impact": 7,
+        "surprise": 3,
+        "mismatch": 3.744,
+        "z_score": 0.651,
+        "sigma_30d": 0.0271,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 444.07,
+        "current_price": 403.7,
+        "sigma_adj": 0.0352,
+        "sector": "Technology",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "AVGO",
+        "impact": 7,
+        "surprise": 3,
+        "mispricing_logic": "Der Markt preist AVGO trotz strukturell \u00fcberlegener Hyperscaler-Bindungen (Google TPU, Meta MTIA, Apple) noch nicht vollst\u00e4ndig ein. EPS-Drift von 0.0 signalisiert, dass Analysten die Custom-ASIC-Wachstumskurve untersch\u00e4tzen \u2013 nicht wegen fehlender Information, sondern wegen methodischer Untersch\u00e4tzung von Design-Win-Compounding. Der Seaport-Downgrade erzeugt Short-Term-Noise, der fundamentale Repricing-Logik \u00fcberdeckt.",
+        "catalyst": "N\u00e4chstes Earnings-Event (Q1 FY2025, erwartet M\u00e4rz 2025) mit potenziellem Custom-ASIC-TAM-Update sowie m\u00f6gliche neue Hyperscaler-Vertragsmeldungen (insb. Apple AI-Chip-Kooperation). Institutionelle Akkumulation (Cohen, Fisher) deutet auf informierten Kapitalzufluss hin.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Seaport-Downgrade adressiert reales Risiko: Hyperscaler k\u00f6nnten Custom-ASIC-Designs intern vertikalisieren (vgl. Google TPU-Eigenentwicklung), was Broaodcoms Design-Win-Pipeline mittelfristig erodiert. VMware-Integrations\u00adkosten k\u00f6nnten Margins belasten.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.4135
+    },
+    {
+      "ticker": "GOOGL",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 350.0,
+        "bid": 23.5,
+        "ask": 23.7,
+        "last": 23.32,
+        "open_interest": 7319,
+        "implied_vol": 0.3613497703552246,
+        "spread_ratio": 0.0084,
+        "dte": 125
+      },
+      "features": {
+        "impact": 5,
+        "surprise": 3,
+        "mismatch": 4.27,
+        "z_score": 0.146,
+        "sigma_30d": 0.0196,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 372.04,
+        "current_price": 338.22,
+        "sigma_adj": 0.0196,
+        "sector": "Communication Services",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "GOOGL",
+        "impact": 5,
+        "surprise": 3,
+        "mispricing_logic": "Die +0.29% Bewegung bei der Intel-Partnerschaft und Cybersecurity-Expansion zeigt klassische Underreaction: Der Markt diskontiert dies als marginales Event, obwohl es GOOGLs strukturelle Abh\u00e4ngigkeit von Ad-Revenue reduziert und die Cloud-Infrastruktur-Story (GCP vs. AWS/Azure) konkret st\u00e4rkt. EPS-Drift von 0.0 signalisiert, dass Analysten noch nicht reagiert haben \u2013 Forward-EPS-Upgrades stehen aus. Cramer-Coverage ist Noise, nicht Signal.",
+        "catalyst": "N\u00e4chstes Quartalsergebnis (Q2 2025 Earnings, erwartet ca. Ende Juli 2025): GCP-Wachstumsrate und Cybersecurity-Segment-Disclosure als konkreter Trigger f\u00fcr Analysten-Revisionen. Intel-Partnership-Meilensteine k\u00f6nnten als Pressemitteilung vorgezogen werden.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "DOJ-Antitrust-Urteil im Search-Monopol-Fall k\u00f6nnte Gesch\u00e4ftsmodell strukturell treffen. David Abrams' Positionsreduktion durch einen Value-Investor mit Track Record ist kein trivialer Gegenindikator. Makro-Rezession dr\u00fcckt Ad-Spending sofort.",
+        "bear_case_severity": 7,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.3671
+    },
+    {
+      "ticker": "AMZN",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 260.0,
+        "bid": 19.95,
+        "ask": 20.15,
+        "last": 20.07,
+        "open_interest": 50537,
+        "implied_vol": 0.38266608551025383,
+        "spread_ratio": 0.0099,
+        "dte": 125
+      },
+      "features": {
+        "impact": 7,
+        "surprise": 5,
+        "mismatch": 1.814,
+        "z_score": 1.037,
+        "sigma_30d": 0.0207,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 279.22,
+        "current_price": 253.84,
+        "sigma_adj": 0.0207,
+        "sector": "Consumer Cyclical",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "AMZN",
+        "impact": 7,
+        "surprise": 5,
+        "mispricing_logic": "Der Markt interpretiert das $50B OpenAI-Investment als reinen Kapitalaufwand, ignoriert jedoch den strategischen Hebel: AWS als prim\u00e4re Compute-Infrastruktur f\u00fcr OpenAIs Skalierung schafft rekurrente Umsatzstr\u00f6me weit \u00fcber die Investitionssumme hinaus. Nvidia-Deal (1M Chips) verst\u00e4rkt AWS-Kapazit\u00e4tsf\u00fchrerschaft. EPS-Drift von 0.0 signalisiert, dass Analysten ihre Modelle noch nicht angepasst haben. +2.15% reflektiert nur die Schlagzeile, nicht den strukturellen Margenhebel durch AI-Workload-Lock-in.",
+        "catalyst": "AMZN Earnings in ~2 Wochen: Management wird AWS AI-Revenue-Guidance erh\u00f6hen und OpenAI-Synergie-Roadmap konkretisieren. Unusual Options Volume best\u00e4tigt institutionelle Positionierung vor diesem Event.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "OpenAI diversifiziert Compute-Partner (Microsoft Azure bleibt Hauptanker). $50B Capex-Belastung dr\u00fcckt Free Cash Flow erheblich. Wenn OpenAI-Wachstum entt\u00e4uscht, wird die Investition als strategischer Fehler geframet.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.3266
+    },
+    {
+      "ticker": "LLY",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 980.0,
+        "bid": 64.45,
+        "ask": 68.3,
+        "last": 69.2,
+        "open_interest": 270,
+        "implied_vol": 0.416723362121582,
+        "spread_ratio": 0.0564,
+        "dte": 125
+      },
+      "features": {
+        "impact": 7,
+        "surprise": 5,
+        "mismatch": 1.214,
+        "z_score": 1.157,
+        "sigma_30d": 0.0192,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 1017.67,
+        "current_price": 925.15,
+        "sigma_adj": 0.0173,
+        "sector": "Healthcare",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "LLY",
+        "impact": 7,
+        "surprise": 5,
+        "mispricing_logic": "Der Markt hat die $7.8B Centessa-Akquisition nur oberfl\u00e4chlich eingepreist (+2.22%). Der strategische Wert liegt im IP-Portfolio (insbesondere Apelinrezeptor-Programm und weitere Mechanismen jenseits Incretins), das LLYs Post-GLP-1-Pipeline diversifiziert. Investoren fokussieren auf kurzfristige EPS-Dilution statt auf den 5-7-Jahres-NPV der erworbenen Assets. EPS-Drift von 0.0 signalisiert, dass Analysten noch keine Revision vorgenommen haben \u2013 klassische Underreaction-Phase.",
+        "catalyst": "N\u00e4chster Earnings-Call (Q2 2025, voraussichtlich Juli/August) mit expliziter Pipeline-Integration-Guidance sowie potenzielle FDA-Meilensteine der Centessa-Assets, die den NPV quantifizierbar machen. Analyst-Upgrades nach detaillierter Deal-Due-Diligence.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Akquisitionspr\u00e4mie k\u00f6nnte zu hoch sein, falls Centessa-Pipeline-Assets bei klinischen Readouts versagen. Zus\u00e4tzlich: GLP-1-Konkurrenz (NVO, AMGN) komprimiert Multiples, und $7.8B Cash-Abfluss schw\u00e4cht kurzfristig Buyback-Kapazit\u00e4t.",
+        "bear_case_severity": 5,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.2996
+    },
+    {
+      "ticker": "NVDA",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 210.0,
+        "bid": 15.3,
+        "ask": 15.4,
+        "last": 15.2,
+        "open_interest": 11743,
+        "implied_vol": 0.40515731567382807,
+        "spread_ratio": 0.0065,
+        "dte": 125
+      },
+      "features": {
+        "impact": 5,
+        "surprise": 3,
+        "mismatch": 2.386,
+        "z_score": 0.523,
+        "sigma_30d": 0.0204,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 221.17,
+        "current_price": 201.06,
+        "sigma_adj": 0.0265,
+        "sector": "Technology",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "NVDA",
+        "impact": 5,
+        "surprise": 3,
+        "mispricing_logic": "Sovereign AI ist kein neues Konzept \u2013 NVDA adressiert dieses Segment bereits seit 2023. Die Palantir-Partnerschaft konkretisiert den Go-to-Market f\u00fcr staatliche Akteure, ist aber eher Validierung bestehender Thesen als struktureller Bruch. EPS-Drift von 0.0 signalisiert keine Revision-\u00dcberraschung. Der +1.07% Move ist proportional zum Newsflow. Marktineffizienz ist gering: NVDA wird breit gecovered, institutionelle Akteure (Dalio, Cohen) signalisieren eher Momentum-Best\u00e4tigung als Informationsvorsprung.",
+        "catalyst": "NVDA Q2 FY2026 Earnings (voraussichtlich August 2025): Erstmalige explizite Segment-Disclosure zu Sovereign AI Revenue k\u00f6nnte quantifizierbare TAM-Erweiterung erzwingen und Analystensch\u00e4tzungen nach oben treiben.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "US-Exportkontrollen (BIS Entity List Erweiterungen) k\u00f6nnten Sovereign AI Deployments in strategisch wichtigen M\u00e4rkten (Middle East, Asien) blockieren. Zudem: Palantir-Partnerschaft schafft keinen exklusiven Burggraben \u2013 AMD/Intel k\u00f6nnen analog kooperieren.",
+        "bear_case_severity": 7,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.2824
+    },
+    {
+      "ticker": "META",
+      "strategy": "LONG_PUT",
+      "iv_rank": 22.222222222222225,
+      "direction": "BEARISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 710.0,
+        "bid": 70.15,
+        "ask": 70.7,
+        "last": 76.79,
+        "open_interest": 1027,
+        "implied_vol": 0.34496199478149414,
+        "spread_ratio": 0.0078,
+        "dte": 125
+      },
+      "features": {
+        "impact": 4,
+        "surprise": 5,
+        "mismatch": 0.81,
+        "z_score": 0.638,
+        "sigma_30d": 0.0274,
+        "eps_drift": 0.0,
+        "bin_impact": "low",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 0.9869,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 615.11,
+        "current_price": 683.45,
+        "sigma_adj": 0.0274,
+        "sector": "Communication Services",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "META",
+        "impact": 4,
+        "surprise": 5,
+        "mispricing_logic": "Der Markt reagiert auf den Rogue-AI-Incident mit +1.75% als sei es irrelevant. Das untersch\u00e4tzt systematisch das regulatorische Tail-Risk: Ein konkreter Sicherheitsvorfall liefert EU-Regulatoren (AI Act) und US-FTC handfeste Munition f\u00fcr Eingriffe. EPS-Drift von 0.0 zeigt, dass Analysten keine Earnings-Revision einpreisen \u2013 obwohl Governance-Kosten und m\u00f6gliche Bu\u00dfgelder Forward-EPS von 35.61 komprimieren k\u00f6nnten. Markt fokussiert auf kurzfristige Monetarisierung von Llama/AI-Features.",
+        "catalyst": "EU AI Act Enforcement-Entscheidung oder FTC-Untersuchungsank\u00fcndigung im Zuge des dokumentierten Sicherheitsincidents \u2013 wahrscheinlich innerhalb der n\u00e4chsten Quartalsberichtssaison (Q2 Earnings ~Juli 2025). Alternativ: Zweiter AI-Incident oder Medialeskalation des bestehenden Falls.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "META's Monetarisierungskraft (Ads-Revenue, AI-Integration) ist strukturell intakt. Forward-PE bei ~26x ist bereits Governance-Risk-adjusted. Regulatoren haben historisch selten schnell agiert, Bu\u00dfgelder sind f\u00fcr META cash-flow-immaterial.",
+        "bear_case_severity": 7,
+        "direction": "BEARISH"
+      },
+      "final_score": 0.1764
+    }
+  ]
+}
