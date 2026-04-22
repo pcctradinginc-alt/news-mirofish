@@ -1,0 +1,355 @@
+{
+  "date": "2026-04-22",
+  "proposals": [
+    {
+      "ticker": "LLY",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 980.0,
+        "bid": 57.0,
+        "ask": 62.65,
+        "last": 59.0,
+        "open_interest": 281,
+        "implied_vol": 0.414594782333374,
+        "spread_ratio": 0.0902,
+        "dte": 120
+      },
+      "features": {
+        "impact": 6,
+        "surprise": 5,
+        "mismatch": 5.305,
+        "z_score": 0.139,
+        "sigma_30d": 0.0191,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 1009.25,
+        "current_price": 917.5,
+        "sigma_adj": 0.0172,
+        "sector": "Healthcare",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "LLY",
+        "impact": 6,
+        "surprise": 5,
+        "mispricing_logic": "Die -0.27% Bewegung trotz $7.8B-Deal signalisiert Markt-Ambivalenz: Investoren f\u00fcrchten Kapitalallokation zu einem Premium-Preis, w\u00e4hrend der strategische Wert von Centessas Pipeline (v.a. SRP-9001 f\u00fcr Duchenne, potenzielle Obesity-Adjacencies) noch nicht eingepreist ist. EPS-Drift von 0.0 deutet auf Analysten-Stagnation \u2013 klassische Underreaction bei komplexer M&A-Pipeline-Logik, die Short-Term-EPS verw\u00e4ssert aber Long-Term-NPV erh\u00f6ht.",
+        "catalyst": "N\u00e4chster Earnings Report (Q2 2025, erwartet ca. Juli/August 2025) mit erster Guidance-Anpassung post-Centessa-Integration sowie potenzielle FDA-Meilensteine aus Centessa-Pipeline im H2 2025.",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "Deal-Premium k\u00f6nnte zu hoch sein; $7.8B f\u00fcr fr\u00fche Pipeline erh\u00f6ht Goodwill-Risiko. Mounjaro/Zepbound-Wachstumsverlangsamung durch GLP-1-Konkurrenz (Novo, Roche) w\u00fcrde Cashflow-Basis f\u00fcr M&A-Amortisierung schw\u00e4chen.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.4487
+    },
+    {
+      "ticker": "META",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 700.0,
+        "bid": 50.65,
+        "ask": 51.3,
+        "last": 51.03,
+        "open_interest": 2580,
+        "implied_vol": 0.3998167929077149,
+        "spread_ratio": 0.0127,
+        "dte": 120
+      },
+      "features": {
+        "impact": 6,
+        "surprise": 3,
+        "mismatch": 5.087,
+        "z_score": 0.183,
+        "sigma_30d": 0.0277,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 741.77,
+        "current_price": 674.34,
+        "sigma_adj": 0.0277,
+        "sector": "Communication Services",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "META",
+        "impact": 6,
+        "surprise": 3,
+        "mispricing_logic": "Der Markt behandelt Metas $50B AI-Capex als kurzfristigen Ergebnisbelaster, ohne die strukturelle Hebelwirkung auf Werbepreise (ROAS) durch AI-optimierte Targeting-Infrastruktur zu diskontieren. Layoffs signalisieren Effizienzgewinn, nicht Schw\u00e4che. EPS-Drift von 0.0 bei Forward-EPS von 35.6 deutet auf Analystenseitige Untersch\u00e4tzung der Margenerholung post-Restrukturierung. +0.51% Bewegung ist statistisch irrelevant bei diesem Newsflow.",
+        "catalyst": "Q2 2025 Earnings (Juli 2025): Erstmalige Sichtbarkeit der AI-Capex-Rendite via Werbe-CPM-Steigerung und Llama-Monetarisierung; Guidance-Anhebung erzwingt Konsensrevision",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "Regulatorischer Druck (EU DSA/FTC) k\u00f6nnte Datenzugriff f\u00fcr AI-Targeting beschneiden. $50B Capex ohne klares ROI-Zeitfenster: Wenn Llama-Kommerzialisierung scheitert, droht multiple Kompression bei steigenden Zinsen.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.4389
+    },
+    {
+      "ticker": "NVDA",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 200.0,
+        "bid": 19.15,
+        "ask": 19.5,
+        "last": 19.45,
+        "open_interest": 14273,
+        "implied_vol": 0.4239559558105469,
+        "spread_ratio": 0.0179,
+        "dte": 120
+      },
+      "features": {
+        "impact": 6,
+        "surprise": 4,
+        "mismatch": 3.729,
+        "z_score": 0.454,
+        "sigma_30d": 0.0198,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 219.98,
+        "current_price": 199.99,
+        "sigma_adj": 0.0257,
+        "sector": "Technology",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "NVDA",
+        "impact": 6,
+        "surprise": 4,
+        "mispricing_logic": "Der Markt untersch\u00e4tzt die strukturelle Bedeutung des Amazon-Deals: 1 Million Chips signalisiert nicht nur Volumen, sondern langfristige Supply-Chain-Bindung von AWS an NVDA-Architektur. Die -0.9% Bewegung bei positivem EPS-Drift=0 und starkem Analyst-Konsens (1.28) deutet auf kurzfristige Rotation/Risikoaversion, nicht auf fundamentale Neubewertung. Der Deal festigt NVDAs Pricing Power gegen\u00fcber Hyperscalern \u2013 ein struktureller Moat, der mit Forward-EPS 11.24 noch nicht ad\u00e4quat eingepreist scheint.",
+        "catalyst": "NVDA Q2 FY2026 Earnings (erwartet ~August 2025): Erstmaliger Ausweis des Amazon-Deal-Volumens in Datacenter-Revenue-Segment; m\u00f6gliche weitere Hyperscaler-Deal-Ank\u00fcndigungen (Microsoft/Google) als Komps-Effekt.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "US-Exportrestriktionen k\u00f6nnten versch\u00e4rft werden und Lieferungen blockieren. Amazon k\u00f6nnte parallel AMD MI300X oder eigene Trainium-Chips skalieren, womit NVDAs Abh\u00e4ngigkeit von einem Gro\u00dfkunden das Klumpenrisiko erh\u00f6ht statt verringert.",
+        "bear_case_severity": 7,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.3778
+    },
+    {
+      "ticker": "AVGO",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 440.0,
+        "bid": 31.1,
+        "ask": 32.4,
+        "last": 29.64,
+        "open_interest": 1626,
+        "implied_vol": 0.4735770416259766,
+        "spread_ratio": 0.0401,
+        "dte": 120
+      },
+      "features": {
+        "impact": 7,
+        "surprise": 4,
+        "mismatch": 2.48,
+        "z_score": 0.904,
+        "sigma_30d": 0.0272,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 449.97,
+        "current_price": 409.06,
+        "sigma_adj": 0.0354,
+        "sector": "Technology",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "AVGO",
+        "impact": 7,
+        "surprise": 4,
+        "mispricing_logic": "Der Markt priced Hyperscaler-Deals und Defense-Kontrakte als inkrementell ein, ohne die strukturelle Verschiebung zu erkennen: AVGO wird zum de-facto Custom-ASIC-Monopolisten f\u00fcr Hyperscaler-AI-Inference. Seaports Downgrade erzeugt kurzfristigen Sentiment-Druck, der die zugrundeliegende Revenue-Visibility (multi-year contracts, sticky switching costs) verschleiert. EPS-Drift von 0.0 signalisiert, dass Analysten die Forward-Guidance noch nicht nach oben revidiert haben.",
+        "catalyst": "Q2 FY2025 Earnings (erwartet Juni 2025): Konkretisierung der Hyperscaler-ASIC-Pipeline und erste Umsatzanteile aus Defense-Deal; m\u00f6gliche Guidance-Anhebung erzwingt Konsensrevision",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Seaports Downgrade reflektiert reale Kapazit\u00e4tsgrenzen im ASIC-Markt (TSMC-Engp\u00e4sse). Nvidia-Dominanz bei Training-Chips k\u00f6nnte Hyperscaler-Budgets komprimieren und Custom-ASIC-Nachfrage verz\u00f6gern.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.3566
+    },
+    {
+      "ticker": "AMZN",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 260.0,
+        "bid": 18.25,
+        "ask": 18.5,
+        "last": 18.46,
+        "open_interest": 28308,
+        "implied_vol": 0.3657900335693359,
+        "spread_ratio": 0.0135,
+        "dte": 120
+      },
+      "features": {
+        "impact": 7,
+        "surprise": 4,
+        "mismatch": 1.706,
+        "z_score": 1.059,
+        "sigma_30d": 0.0199,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 278.81,
+        "current_price": 253.46,
+        "sigma_adj": 0.0199,
+        "sector": "Consumer Cyclical",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "AMZN",
+        "impact": 7,
+        "surprise": 4,
+        "mispricing_logic": "Der Markt preist den $50B OpenAI-Commitment und 1M-Chip-Deal als isolierte Kapitalallokations-Entscheidungen ein, untersch\u00e4tzt aber den strategischen Hebel: AWS positioniert sich als prim\u00e4re Hyperscaler-Infrastruktur f\u00fcr das dominante KI-\u00d6kosystem. EPS-Drift von 0.0 zeigt, dass Analysten ihre Modelle noch nicht angepasst haben. Double-Upgrade von BofA/KeyBanc signalisiert institutionelle Neubewertung, die noch nicht in breiten Positionen reflektiert ist.",
+        "catalyst": "Q1 2025 Earnings Call (ca. 1. Mai 2025): AWS-Revenue-Guidance-Anhebung + konkrete OpenAI-Infrastruktur-Umsatzzahlen erzwingen Modell-Revisionen bei Buy-Side.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Capex-Explosion ($100B+ 2025) dr\u00fcckt Free-Cash-Flow massiv. Bei Makro-Eintr\u00fcbung oder OpenAI-Bewertungskorrektur wird $50B-Commitment zur Belastung statt Wachstumstreiber. Margen-Kompression realistisch.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.3218
+    },
+    {
+      "ticker": "GOOGL",
+      "strategy": "LONG_PUT",
+      "iv_rank": 22.222222222222225,
+      "direction": "BEARISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 370.0,
+        "bid": 43.6,
+        "ask": 46.35,
+        "last": 45.0,
+        "open_interest": 290,
+        "implied_vol": 0.3346318978881836,
+        "spread_ratio": 0.0593,
+        "dte": 120
+      },
+      "features": {
+        "impact": 4,
+        "surprise": 3,
+        "mismatch": 3.881,
+        "z_score": 0.024,
+        "sigma_30d": 0.0199,
+        "eps_drift": 0.0,
+        "bin_impact": "low",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 303.93,
+        "current_price": 337.7,
+        "sigma_adj": 0.0199,
+        "sector": "Communication Services",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "GOOGL",
+        "impact": 4,
+        "surprise": 3,
+        "mispricing_logic": "Die Google-Intel-Partnerschaft ist eine inkrementelle, keine transformative Neuigkeit. Der Markt reagiert korrekt mit Gleichg\u00fcltigkeit (0.05% Move). EPS-Drift=0 signalisiert keine Revisions-Dynamik. Jim Cramer als Bullish-Signal ist kontr\u00e4r zu werten. Billionaire-Verkauf (Abrams) deutet auf institutionelle Distribution. Kein echtes Mispricing erkennbar \u2013 die AI-Infrastructure-Story ist bereits eingepreist in der GOOGL-Bewertung.",
+        "catalyst": "Kein kurzfristiger harter Katalysator identifizierbar. N\u00e4chster relevanter Trigger: Q2-2025 Earnings mit Cloud-Revenue-Beschleunigung und Margin-Expansion als potenzielle Revisionsgrundlage. Ohne EPS-Drift-Momentum fehlt der erzwingende Einpreisungs-Mechanismus.",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "DOJ-Antitrust-Urteil (Search-Monopol) k\u00f6nnte strukturelle Remedy erzwingen. Abrams-Verkauf signalisiert Smart-Money-Distribution. Cloud-Wachstum verlangsamt sich, w\u00e4hrend CAPEX-Belastung steigt. Azure/AWS gewinnen AI-Marktanteile.",
+        "bear_case_severity": 7,
+        "direction": "BEARISH"
+      },
+      "final_score": 0.3146
+    },
+    {
+      "ticker": "AAPL",
+      "strategy": "LONG_PUT",
+      "iv_rank": 22.222222222222225,
+      "direction": "BEARISH",
+      "option": {
+        "expiry": "2026-08-21",
+        "strike": 300.0,
+        "bid": 34.5,
+        "ask": 35.35,
+        "last": 32.18,
+        "open_interest": 10186,
+        "implied_vol": 0.25580578186035163,
+        "spread_ratio": 0.024,
+        "dte": 120
+      },
+      "features": {
+        "impact": 4,
+        "surprise": 2,
+        "mismatch": 1.008,
+        "z_score": 0.598,
+        "sigma_30d": 0.0141,
+        "eps_drift": 0.0,
+        "bin_impact": "low",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 243.55,
+        "current_price": 270.62,
+        "sigma_adj": 0.0184,
+        "sector": "Technology",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "AAPL",
+        "impact": 4,
+        "surprise": 2,
+        "mispricing_logic": "Die 'Most Lucrative Product Rollout'-Headline ist klassischer Retail-Hype ohne spezifisches Datum oder Produktdetail. EPS-Drift von 0.0 signalisiert keine Analystentrendwende. Israel Englander trimmt Stake \u2013 institutionelles Smart Money reduziert Exposure. Der Markt reagiert nicht falsch, er ignoriert zu Recht vagen Hype. Keine echte Informations-Asymmetrie erkennbar \u2013 lediglich redaktionelles Clickbait ohne fundamentalen Neu-Datenpunkt.",
+        "catalyst": "Apple WWDC 2024 / iPhone 16 AI-Feature-Announcement oder Earnings Q3 FY2024 \u2013 nur dann entsteht echter Kursdruck durch Revisionen der Forward-EPS \u00fcber 9.39 USD hinaus",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "Englander-Abbau, stagnierender EPS-Drift und China-Absatzschw\u00e4che (Huawei-Konkurrenz) kombiniert mit Bewertungs-Premium (~28x Forward PE) ohne Wachstumsbeschleunigung sind strukturelle Gegenargumente.",
+        "bear_case_severity": 6,
+        "direction": "BEARISH"
+      },
+      "final_score": 0.1854
+    }
+  ]
+}
