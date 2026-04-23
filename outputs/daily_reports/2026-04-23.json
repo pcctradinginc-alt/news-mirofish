@@ -1,0 +1,205 @@
+{
+  "date": "2026-04-23",
+  "proposals": [
+    {
+      "ticker": "NVDA",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 220.0,
+        "bid": 15.2,
+        "ask": 15.45,
+        "last": 15.3,
+        "open_interest": 27649,
+        "implied_vol": 0.434148724975586,
+        "spread_ratio": 0.0162,
+        "dte": 147
+      },
+      "features": {
+        "impact": 7,
+        "surprise": 4,
+        "mismatch": 3.571,
+        "z_score": 0.686,
+        "sigma_30d": 0.0198,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 222.32,
+        "current_price": 202.11,
+        "sigma_adj": 0.0258,
+        "sector": "Technology",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "NVDA",
+        "impact": 7,
+        "surprise": 4,
+        "mispricing_logic": "Der Markt hat mit +1.36% unterreagiert auf einen strukturellen 1M-Chip-Deal mit Amazon, der langfristige Hyperscaler-Bindung signalisiert. Der Markt diskontiert den Deal als 'bereits bekannt' \u2013 ignoriert aber die implizierte Vorauszahlung, Kapazit\u00e4tssicherung f\u00fcr 12-18 Monate und Signalwirkung f\u00fcr andere Cloud-Anbieter. EPS-Drift von 0.0 deutet auf fehlende Revision-Dynamik trotz materialem Volumenvertrag hin.",
+        "catalyst": "NVDA Q2 FY2026 Earnings (August 2025): Guidance-Update zu Gro\u00dfkundenvertr\u00e4gen und Blackwell-Auslieferungsraten wird Deal-Volumen erstmals monet\u00e4r quantifizieren und Analysten zu Konsensrevision zwingen.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "US-Exportkontrollen versch\u00e4rfen sich erneut (BIS-Regel\u00e4nderung), Amazon entwickelt eigene Trainium-Chips aggressiver und reduziert NVDA-Abh\u00e4ngigkeit strukturell. Gleichzeitig: Bewertung bei >30x Forward-EPS l\u00e4sst keinen Fehler zu.",
+        "bear_case_severity": 7,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.4057
+    },
+    {
+      "ticker": "AMZN",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 280.0,
+        "bid": 14.8,
+        "ask": 15.0,
+        "last": 15.07,
+        "open_interest": 11760,
+        "implied_vol": 0.37616590637207037,
+        "spread_ratio": 0.0133,
+        "dte": 147
+      },
+      "features": {
+        "impact": 7,
+        "surprise": 5,
+        "mismatch": 1.857,
+        "z_score": 1.029,
+        "sigma_30d": 0.0201,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 280.52,
+        "current_price": 255.02,
+        "sigma_adj": 0.0201,
+        "sector": "Consumer Cyclical",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "AMZN",
+        "impact": 7,
+        "surprise": 5,
+        "mispricing_logic": "Der Markt reagiert nur mit +2.06% auf eine $50Mrd-KI-Investition, die AMZNs AWS-Positioning fundamental st\u00e4rkt. Der EPS-Drift von 0.0 signalisiert, dass Analysten ihre Modelle noch nicht angepasst haben. Die Doppel-Hochstufung von BofA/KeyBanc und der Nvidia-Chip-Deal (1Mio GPUs) deuten auf eine strukturelle Kapazit\u00e4tserweiterung hin, deren EBIT-Hebel auf AWS-Margen (60%+) noch nicht eingepreist ist. Konsensusbewertung 1.35 zeigt starkes Buy-Signal trotz z\u00f6gerlicher Kursreaktion.",
+        "catalyst": "Quartalsbericht Q1 2025 (erwartet Ende April/Anfang Mai 2025): AWS-Umsatzwachstum und operative Margenexpansion durch KI-Workloads sowie erste Guidance-Revision nach OpenAI-Deal",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Die $50Mrd-Investition belastet kurzfristig den Free Cash Flow massiv. Sollte AWS-Wachstum unter 17% fallen oder die KI-Capex-Rendite unklar bleiben, droht multiple Compression trotz Fundamentalst\u00e4rke.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.3286
+    },
+    {
+      "ticker": "LLY",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 1000.0,
+        "bid": 62.05,
+        "ask": 68.0,
+        "last": 61.75,
+        "open_interest": 380,
+        "implied_vol": 0.4185849157714844,
+        "spread_ratio": 0.0875,
+        "dte": 147
+      },
+      "features": {
+        "impact": 7,
+        "surprise": 6,
+        "mismatch": 1.424,
+        "z_score": 1.115,
+        "sigma_30d": 0.0189,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 1014.54,
+        "current_price": 922.3,
+        "sigma_adj": 0.0171,
+        "sector": "Healthcare",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "LLY",
+        "impact": 7,
+        "surprise": 6,
+        "mispricing_logic": "Der Markt hat die Centessa-Akquisition mit nur +2,11% unterreagiert. Der Deal signalisiert strategische Pipeline-Erweiterung \u00fcber GLP-1 hinaus (vermutlich Orexin/Schlaf oder Neurologie). EPS-Drift von 0,0 deutet darauf hin, dass Analysten die Synergiepotenziale noch nicht in Forward-Estimates eingepreist haben. Bei einem Forward-P/E von ~18x (KGV auf 42,21 EPS) bleibt struktureller Upside durch Pipeline-Optionalit\u00e4t systematisch untersch\u00e4tzt.",
+        "catalyst": "N\u00e4chster Quartalsbericht (Q2 2025 Earnings, erwartet ca. August 2025) mit Management-Guidance zu Centessa-Integration und Pipeline-Milestones; zus\u00e4tzlich potenzielle FDA-Entscheidungen zu LLY-Pipeline-Assets H2 2025",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "7,8 Mrd. USD Cash-Einsatz belastet Bilanz bei bereits hoher Bewertung. Sollten GLP-1-Konkurrenten (NVO, AMGN) Marktanteile gewinnen oder Centessa-Pipeline-Assets klinisch scheitern, droht signifikanter Multipel-Abbau.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.3091
+    },
+    {
+      "ticker": "JNJ",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 250.0,
+        "bid": 4.95,
+        "ask": 5.5,
+        "last": 5.0,
+        "open_interest": 4242,
+        "implied_vol": 0.22385419708251947,
+        "spread_ratio": 0.1,
+        "dte": 147
+      },
+      "features": {
+        "impact": 6,
+        "surprise": 5,
+        "mismatch": 0.487,
+        "z_score": 1.103,
+        "sigma_30d": 0.0092,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 0.9999,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 251.37,
+        "current_price": 228.51,
+        "sigma_adj": 0.0083,
+        "sector": "Healthcare",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "JNJ",
+        "impact": 6,
+        "surprise": 5,
+        "mispricing_logic": "Der Markt hat das $950M Punitive-Damages-Reversal nur marginal eingepreist (+1%), obwohl es das strukturelle Rechtsrisiko erheblich reduziert. Talc-Litigation war ein hartn\u00e4ckiger Bewertungsabschlag (ca. 8-12% nach Analysten-Sch\u00e4tzungen). Gleichzeitig ignoriert der Markt den Icotyde-Upside von Guggenheim, da Pharma-Pipeline-Neubewertungen typischerweise mit Verz\u00f6gerung stattfinden. EPS-Drift von 0.0 signalisiert, dass Analysten noch nicht reagiert haben.",
+        "catalyst": "N\u00e4chstes JNJ Earnings-Call (Q2 2025, erwartet Juli 2025) mit potenzieller Guidance-Anhebung durch reduzierte Rechtsr\u00fcckstellungen + Icotyde Phase-III-Daten oder FDA-Meilenstein",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "Verbleibende $16M Talc-Verdicts sind Pr\u00e4zedenzf\u00e4lle f\u00fcr weitere Klagen. Neue Sammelklagen k\u00f6nnten den Rechtsrisiko-Abschlag ersetzen. Icotyde k\u00f6nnte klinische Endpunkte verfehlen. Makro-Zinsbelastung dr\u00fcckt auf Dividenden-Bewertungsmultiple.",
+        "bear_case_severity": 5,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.2319
+    }
+  ]
+}
