@@ -1,0 +1,55 @@
+{
+  "date": "2026-04-24",
+  "proposals": [
+    {
+      "ticker": "META",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 700.0,
+        "bid": 51.2,
+        "ask": 52.2,
+        "last": 49.5,
+        "open_interest": 3469,
+        "implied_vol": 0.3833374655151367,
+        "spread_ratio": 0.0192,
+        "dte": 146
+      },
+      "features": {
+        "impact": 7,
+        "surprise": 4,
+        "mismatch": 5.476,
+        "z_score": 0.305,
+        "sigma_30d": 0.0278,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 736.04,
+        "current_price": 669.13,
+        "sigma_adj": 0.0278,
+        "sector": "Communication Services",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "META",
+        "impact": 7,
+        "surprise": 4,
+        "mispricing_logic": "Der Markt behandelt den Workforce-Cut reflexartig als Kostensignal, ignoriert aber den strategischen Hebel: AWS Graviton-Adoption signalisiert, dass Meta externe AI-Infrastruktur skaliert statt nur intern zu bauen \u2013 das reduziert Capex-Volatilit\u00e4t bei gleichzeitig steigender AI-Monetarisierung. Der Forward-EPS von 35.86 bei Konsens 1.36 (Buy-Rating) deutet auf systematische Untersch\u00e4tzung des Margenhebels hin. -0.85% Reaktion zeigt Underreaction, nicht Overreaction.",
+        "catalyst": "Q1 2025 Earnings (April/Mai): Erstmals sichtbare Margenexpansion durch Headcount-Reduktion + AI-Werbeeffizenz-Daten; Graviton-Deal-Details im Earnings-Call erzwingen Neubewertung der Infrastruktur-Kostenstruktur.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "FTC/EU-Regulierung eskaliert (laufende Antitrust-Verfahren). Workforce-Cut demoralisiert Kerningenieure, verlangsamt AI-Roadmap. Werberezession durch Makro-Abschwung dr\u00fcckt Revenue trotz Effizienzgewinnen.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.4914
+    }
+  ]
+}
