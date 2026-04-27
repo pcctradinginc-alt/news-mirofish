@@ -1,0 +1,55 @@
+{
+  "date": "2026-04-27",
+  "proposals": [
+    {
+      "ticker": "AVGO",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 450.0,
+        "bid": 41.2,
+        "ask": 43.05,
+        "last": 41.76,
+        "open_interest": 3335,
+        "implied_vol": 0.5310868424987794,
+        "spread_ratio": 0.043,
+        "dte": 143
+      },
+      "features": {
+        "impact": 8,
+        "surprise": 5,
+        "mismatch": 6.24,
+        "z_score": 0.352,
+        "sigma_30d": 0.0267,
+        "eps_drift": 0.0,
+        "bin_impact": "high",
+        "bin_mismatch": "strong",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 457.75,
+        "current_price": 416.14,
+        "sigma_adj": 0.0347,
+        "sector": "Technology",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "AVGO",
+        "impact": 8,
+        "surprise": 5,
+        "mispricing_logic": "Der Markt reagiert reflexartig negativ auf den Seaport-Downgrade und ignoriert die strukturelle Bedeutung der Multi-Jahr-Meta-Partnerschaft. Diese Partnerschaft sichert langfristige Custom-ASIC-Revenues (XPU) mit Visibility \u00fcber mehrere Fiskaljahre \u2013 ein klassischer Fall von Overweight auf kurzfristigen Analystenmeinung vs. Underweight auf fundamentaler Revenue-Qualit\u00e4tsverbesserung. EPS-Drift=0 signalisiert keine Konsensrevision trotz erheblichem Deal-Volumen.",
+        "catalyst": "N\u00e4chstes AVGO Earnings (Q2 FY2025, erwartet Juni 2025): Management wird Meta-Partnership Revenue-Guidance konkretisieren und Custom-AI-ASIC-Backlog offenlegen \u2013 erzwingt Konsensrevision nach oben.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Seaport-Downgrade adressiert reale Kapazit\u00e4tsgrenzen bei TSMC-Packaging (CoWoS). Falls Meta-Capex-Zyklen drehen oder eigene In-House-Chip-Entwicklung beschleunigt, verliert AVGO strukturellen Moat schneller als eingepreist.",
+        "bear_case_severity": 5,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.5608
+    }
+  ]
+}
