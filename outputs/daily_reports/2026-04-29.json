@@ -1,0 +1,105 @@
+{
+  "date": "2026-04-29",
+  "proposals": [
+    {
+      "ticker": "META",
+      "strategy": "LONG_PUT",
+      "iv_rank": 22.222222222222225,
+      "direction": "BEARISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 700.0,
+        "bid": 74.35,
+        "ask": 76.15,
+        "last": 76.8,
+        "open_interest": 1564,
+        "implied_vol": 0.3602816658020019,
+        "spread_ratio": 0.0236,
+        "dte": 141
+      },
+      "features": {
+        "impact": 4,
+        "surprise": 2,
+        "mismatch": 2.541,
+        "z_score": 0.292,
+        "sigma_30d": 0.028,
+        "eps_drift": 0.0,
+        "bin_impact": "low",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 605.59,
+        "current_price": 672.88,
+        "sigma_adj": 0.028,
+        "sector": "Communication Services",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "META",
+        "impact": 4,
+        "surprise": 2,
+        "mispricing_logic": "Der Markt hat bereits jahrelange EU-Regulierungsrisiken eingepreist (GDPR, DSA). Die -0.82% Reaktion spiegelt korrekte Underreaction wider: EU-Kinderschutz-Compliance kostet operativ wenig (<1% Marge), Bu\u00dfgelder sind historisch absorbierbar. Kein struktureller Einnahme-Einbruch erwartet. Meta's Forward-EPS von 36.06 bei KGV ~22 impliziert, der Markt ignoriert Worst-Case-Szenarien rational. Informations-Asymmetrie ist minimal \u2013 dies ist regulatorisches L\u00e4rm, kein fundamentaler Bruch.",
+        "catalyst": "EU Digital Services Act (DSA) Enforcement-Entscheidung durch Europ\u00e4ische Kommission, erwartet Q2/Q3 2025 \u2013 konkrete Bu\u00dfgeldh\u00f6he oder Verhaltensauflagen w\u00fcrden Neubewertung erzwingen.",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "Strukturelle Auflage zur Altersverifikation erzwingt Login-Friction, reduziert MAU-Wachstum in Europa signifikant. Pr\u00e4zedenzfall k\u00f6nnte globale Nachahmungsgesetzgebung (UK, USA) ausl\u00f6sen und Jugend-Segment-Monetarisierung dauerhaft besch\u00e4digen.",
+        "bear_case_severity": 5,
+        "direction": "BEARISH"
+      },
+      "final_score": 0.2543
+    },
+    {
+      "ticker": "GOOGL",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 390.0,
+        "bid": 16.65,
+        "ask": 18.0,
+        "last": 17.15,
+        "open_interest": 3965,
+        "implied_vol": 0.3503635520935058,
+        "spread_ratio": 0.075,
+        "dte": 141
+      },
+      "features": {
+        "impact": 5,
+        "surprise": 3,
+        "mismatch": 1.288,
+        "z_score": 0.742,
+        "sigma_30d": 0.0198,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 390.71,
+        "current_price": 355.19,
+        "sigma_adj": 0.0198,
+        "sector": "Communication Services",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "GOOGL",
+        "impact": 5,
+        "surprise": 3,
+        "mispricing_logic": "Der Markt preist DOD-Expansion als inkrementelles Cloud-Revenue ein, ignoriert aber den strategischen Signalwert: Pentagon-Endorsement legitimiert Google AI gegen\u00fcber Enterprise-Kunden, die auf Regierungsfreigaben warten. Der Hinweis 'never a good thing to rely on one model' deutet auf Multi-Vendor-Strategie hin \u2013 Google gewinnt Marktanteil, ohne OpenAI/Microsoft vollst\u00e4ndig zu ersetzen. EPS-Drift von 0.0 zeigt fehlende Analystenwiederbewertung.",
+        "catalyst": "N\u00e4chster GOOGL Earnings Call (Q2 2025, voraussichtlich Juli 2025) mit expliziter Guidance zu Government/Cloud-Segment-Wachstum oder Ank\u00fcndigung konkreter DOD-Vertragsvolumina via SEC-Filing",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "DOD-Kommentar signalisiert bewusste Diversifikation \u2013 Google bleibt ein Vendor unter mehreren. Vertragsvolumen bleibt klassifiziert, Revenue-Impact ist nicht quantifizierbar. Regulatorisches Antitrust-Verfahren gegen Google k\u00f6nnte Regierungspartnerschaften politisch belasten.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.233
+    }
+  ]
+}
