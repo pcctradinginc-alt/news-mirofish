@@ -1,0 +1,155 @@
+{
+  "date": "2026-04-30",
+  "proposals": [
+    {
+      "ticker": "AMZN",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 290.0,
+        "bid": 11.85,
+        "ask": 12.25,
+        "last": 11.67,
+        "open_interest": 14974,
+        "implied_vol": 0.3593203717041016,
+        "spread_ratio": 0.0327,
+        "dte": 140
+      },
+      "features": {
+        "impact": 7,
+        "surprise": 5,
+        "mismatch": 6.655,
+        "z_score": 0.069,
+        "sigma_30d": 0.0201,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "strong",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 285.55,
+        "current_price": 259.6,
+        "sigma_adj": 0.0201,
+        "sector": "Consumer Cyclical",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "AMZN",
+        "impact": 7,
+        "surprise": 5,
+        "mispricing_logic": "Der Markt behandelt das $50Mrd OpenAI-Investment als Einzelevent, nicht als strategische Repositionierung: AWS verliert Marktanteile an Azure/GCP im AI-Infrastruktur-Segment. Das Investment signalisiert eine defensive Abh\u00e4ngigkeit von OpenAI-Kapazit\u00e4ten statt organischer AI-Kompetenz. Flat EPS-Drift und -0.14% Preisbewegung deuten auf Underreaction hin \u2013 Konsens hat die Kapitalallokations-Implikationen f\u00fcr Free-Cash-Flow noch nicht eingepreist.",
+        "catalyst": "AMZN Earnings in ~2 Wochen: AWS-Wachstumsrate und Capex-Guidance werden die tats\u00e4chliche AI-Monetarisierung quantifizieren und den strategischen Wert des OpenAI-Deals offenlegen.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Das $50Mrd-Investment belastet den Free Cash Flow massiv. Falls AWS-Wachstum entt\u00e4uscht und OpenAI-Synergien unklar bleiben, k\u00f6nnte der Markt das als kapitalvernichtende Panikreaktion auf Microsoft/Azure-Dominanz umdeuten.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.5445
+    },
+    {
+      "ticker": "AVGO",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 450.0,
+        "bid": 36.45,
+        "ask": 38.35,
+        "last": 37.01,
+        "open_interest": 3482,
+        "implied_vol": 0.5285386502075197,
+        "spread_ratio": 0.0495,
+        "dte": 140
+      },
+      "features": {
+        "impact": 8,
+        "surprise": 5,
+        "mismatch": 4.365,
+        "z_score": 0.727,
+        "sigma_30d": 0.0276,
+        "eps_drift": 0.0,
+        "bin_impact": "high",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 448.23,
+        "current_price": 407.48,
+        "sigma_adj": 0.0358,
+        "sector": "Technology",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "AVGO",
+        "impact": 8,
+        "surprise": 5,
+        "mispricing_logic": "Der Markt preist die Meta-Partnerschaft als inkrementellen Win ein, untersch\u00e4tzt aber die strukturelle Bedeutung: Multi-Year Custom ASIC Commitments bedeuten gesicherte Kapazit\u00e4tsauslastung und Pricing Power \u00fcber mehrere Zyklen. Seaport-Downgrade lenkt Aufmerksamkeit auf kurzfristige Industry-Limits und maskiert den langfristigen Revenue-Lock-in-Effekt. EPS-Drift von 0.0 signalisiert, dass Analysten Sch\u00e4tzungen noch nicht nach oben angepasst haben \u2013 klassische Underreaction auf strukturelle Vertrags\u00e4nderung.",
+        "catalyst": "N\u00e4chstes Earnings-Release (AVGO Q2 FY2025, erwartet ~Juni 2025): Management wird erstmals konkrete Revenue-Guidance aus Meta-Partnership quantifizieren; Analyst-Estimate-Revision-Welle folgt unmittelbar danach.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Seaport-Downgrade reflektiert reales Risiko: Custom-ASIC-Markt wird zunehmend kompetitiv (Marvell, intern bei Hyperscalern). Sollte Meta CAPEX-Guidance senken oder In-House-Design beschleunigen, kollabiert die Partnership-Pr\u00e4mie.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.4764
+    },
+    {
+      "ticker": "AAPL",
+      "strategy": "LONG_PUT",
+      "iv_rank": 22.222222222222225,
+      "direction": "BEARISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 290.0,
+        "bid": 26.4,
+        "ask": 27.45,
+        "last": 29.5,
+        "open_interest": 1630,
+        "implied_vol": 0.24176783630371096,
+        "spread_ratio": 0.0383,
+        "dte": 140
+      },
+      "features": {
+        "impact": 6,
+        "surprise": 7,
+        "mismatch": 4.272,
+        "z_score": 0.346,
+        "sigma_30d": 0.0142,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 244.76,
+        "current_price": 271.96,
+        "sigma_adj": 0.0185,
+        "sector": "Technology",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "AAPL",
+        "impact": 6,
+        "surprise": 7,
+        "mispricing_logic": "Der Markt behandelt den Ternus-CEO-Wechsel als Kontinuit\u00e4tsereignis (+0.49%), untersch\u00e4tzt aber strukturelle Implikationen: Ternus ist Hardware-focused (Engineering-DNA), kein Services/AI-first-Profil wie Cook. Dies k\u00f6nnte langfristige Margenstruktur und Apple Intelligence-Monetarisierung verz\u00f6gern. Institutionelle Verk\u00e4ufe (Englander-Trim) deuten auf stille Neubewertung hin, die Retail noch nicht antizipiert.",
+        "catalyst": "N\u00e4chste AAPL Earnings-Call (Q2 FY2025, ~Mai 2025): Ternus' erste \u00f6ffentliche strategische Aussagen als CEO definieren neue operative Priorit\u00e4ten; Guidance-Delta zu Cook-\u00c4ra wird quantifiziert. Zudem: WWDC 2025 als erster Produkt-Test unter neuer F\u00fchrung.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Ternus ist Apples langj\u00e4hriger SVP Hardware Engineering \u2013 kein \u00dcberraschungskandidat, sondern interne Kontinuit\u00e4t. Services-Strategie bleibt unver\u00e4ndert unter CFO/COO-Strukturen. Markt-Underreaction ist m\u00f6glicherweise korrekte Reaktion: kein fundamentaler Bruch.",
+        "bear_case_severity": 7,
+        "direction": "BEARISH"
+      },
+      "final_score": 0.4022
+    }
+  ]
+}
