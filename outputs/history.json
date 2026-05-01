@@ -2,35 +2,35 @@
   "feature_stats": {
     "impact": {
       "low": {
-        "count": 168,
+        "count": 182,
         "avg_return": 0.0
       },
       "mid": {
-        "count": 422,
+        "count": 470,
         "avg_return": 0.0
       },
       "high": {
-        "count": 74,
+        "count": 82,
         "avg_return": 0.0
       }
     },
     "mismatch": {
       "weak": {
-        "count": 355,
+        "count": 389,
         "avg_return": 0.0
       },
       "good": {
-        "count": 287,
+        "count": 319,
         "avg_return": 0.0
       },
       "strong": {
-        "count": 22,
+        "count": 26,
         "avg_return": 0.0
       }
     },
     "eps_drift": {
       "noise": {
-        "count": 664,
+        "count": 734,
         "avg_return": 0.0
       },
       "relevant": {
@@ -71,7 +71,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 923.945,
+      "last_price": 975.2,
       "current_return": 0.0
     },
     {
@@ -101,7 +101,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 603.91,
+      "last_price": 612.9,
       "current_return": 0.0
     },
     {
@@ -131,7 +131,7 @@
         "dte": 159
       },
       "outcome": null,
-      "last_price": 111.66,
+      "last_price": 113.325,
       "current_return": 0.0
     },
     {
@@ -161,7 +161,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 271.8265,
+      "last_price": 284.03,
       "current_return": 0.0
     },
     {
@@ -191,7 +191,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 367.27,
+      "last_price": 367.695,
       "current_return": 0.0
     },
     {
@@ -221,7 +221,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 923.945,
+      "last_price": 975.2,
       "current_return": 0.0
     },
     {
@@ -251,7 +251,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 367.27,
+      "last_price": 367.695,
       "current_return": 0.0
     },
     {
@@ -281,7 +281,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 603.91,
+      "last_price": 612.91,
       "current_return": 0.0
     },
     {
@@ -311,7 +311,7 @@
         "dte": 159
       },
       "outcome": null,
-      "last_price": 111.66,
+      "last_price": 113.325,
       "current_return": 0.0
     },
     {
@@ -341,7 +341,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 271.8265,
+      "last_price": 284.03,
       "current_return": 0.0
     },
     {
@@ -371,7 +371,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 371.92,
+      "last_price": 382.9,
       "current_return": 0.0
     },
     {
@@ -401,7 +401,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 923.945,
+      "last_price": 975.2,
       "current_return": 0.0
     },
     {
@@ -431,7 +431,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 924.45,
+      "last_price": 975.2,
       "current_return": 0.0
     },
     {
@@ -461,7 +461,7 @@
         "dte": 131
       },
       "outcome": null,
-      "last_price": 924.45,
+      "last_price": 975.2,
       "current_return": 0.0
     },
     {
@@ -491,7 +491,7 @@
         "dte": 129
       },
       "outcome": null,
-      "last_price": 368.44,
+      "last_price": 383.94,
       "current_return": 0.0
     },
     {
@@ -521,7 +521,7 @@
         "dte": 129
       },
       "outcome": null,
-      "last_price": 259.5499,
+      "last_price": 269.11,
       "current_return": 0.0
     },
     {
@@ -551,7 +551,7 @@
         "dte": 129
       },
       "outcome": null,
-      "last_price": 271.8265,
+      "last_price": 284.07,
       "current_return": 0.0
     },
     {
@@ -581,7 +581,7 @@
         "dte": 156
       },
       "outcome": null,
-      "last_price": 111.655,
+      "last_price": 113.325,
       "current_return": 0.0
     },
     {
@@ -611,7 +611,7 @@
         "dte": 128
       },
       "outcome": null,
-      "last_price": 407.73,
+      "last_price": 420.565,
       "current_return": 0.0
     },
     {
@@ -641,7 +641,7 @@
         "dte": 128
       },
       "outcome": null,
-      "last_price": 924.45,
+      "last_price": 975.2,
       "current_return": 0.0
     },
     {
@@ -671,7 +671,7 @@
         "dte": 128
       },
       "outcome": null,
-      "last_price": 214.0142,
+      "last_price": 208.6,
       "current_return": 0.0
     },
     {
@@ -701,7 +701,7 @@
         "dte": 128
       },
       "outcome": null,
-      "last_price": 271.7775,
+      "last_price": 284.07,
       "current_return": 0.0
     },
     {
@@ -731,7 +731,7 @@
         "dte": 155
       },
       "outcome": null,
-      "last_price": 230.85,
+      "last_price": 229.19,
       "current_return": 0.0
     },
     {
@@ -761,7 +761,7 @@
         "dte": 127
       },
       "outcome": null,
-      "last_price": 367.2499,
+      "last_price": 367.695,
       "current_return": 0.0
     },
     {
@@ -791,7 +791,7 @@
         "dte": 127
       },
       "outcome": null,
-      "last_price": 407.73,
+      "last_price": 420.5701,
       "current_return": 0.0
     },
     {
@@ -821,7 +821,7 @@
         "dte": 127
       },
       "outcome": null,
-      "last_price": 214.0142,
+      "last_price": 208.6,
       "current_return": 0.0
     },
     {
@@ -851,7 +851,7 @@
         "dte": 126
       },
       "outcome": null,
-      "last_price": 200.7119,
+      "last_price": 200.25,
       "current_return": 0.0
     },
     {
@@ -881,7 +881,7 @@
         "dte": 126
       },
       "outcome": null,
-      "last_price": 367.2499,
+      "last_price": 367.695,
       "current_return": 0.0
     },
     {
@@ -911,7 +911,7 @@
         "dte": 126
       },
       "outcome": null,
-      "last_price": 368.44,
+      "last_price": 383.9,
       "current_return": 0.0
     },
     {
@@ -941,7 +941,7 @@
         "dte": 126
       },
       "outcome": null,
-      "last_price": 259.5499,
+      "last_price": 269.1799,
       "current_return": 0.0
     },
     {
@@ -971,7 +971,7 @@
         "dte": 153
       },
       "outcome": null,
-      "last_price": 111.655,
+      "last_price": 113.325,
       "current_return": 0.0
     },
     {
@@ -1001,7 +1001,7 @@
         "dte": 125
       },
       "outcome": null,
-      "last_price": 407.73,
+      "last_price": 420.5701,
       "current_return": 0.0
     },
     {
@@ -1031,7 +1031,7 @@
         "dte": 125
       },
       "outcome": null,
-      "last_price": 368.44,
+      "last_price": 383.9,
       "current_return": 0.0
     },
     {
@@ -1061,7 +1061,7 @@
         "dte": 125
       },
       "outcome": null,
-      "last_price": 259.5499,
+      "last_price": 269.1799,
       "current_return": 0.0
     },
     {
@@ -1091,7 +1091,7 @@
         "dte": 125
       },
       "outcome": null,
-      "last_price": 924.45,
+      "last_price": 975.2,
       "current_return": 0.0
     },
     {
@@ -1121,7 +1121,7 @@
         "dte": 125
       },
       "outcome": null,
-      "last_price": 200.7119,
+      "last_price": 200.25,
       "current_return": 0.0
     },
     {
@@ -1151,7 +1151,7 @@
         "dte": 125
       },
       "outcome": null,
-      "last_price": 603.97,
+      "last_price": 613.085,
       "current_return": 0.0
     },
     {
@@ -1181,7 +1181,7 @@
         "dte": 122
       },
       "outcome": null,
-      "last_price": 200.7119,
+      "last_price": 200.25,
       "current_return": 0.0
     },
     {
@@ -1211,7 +1211,7 @@
         "dte": 122
       },
       "outcome": null,
-      "last_price": 259.5499,
+      "last_price": 269.1799,
       "current_return": 0.0
     },
     {
@@ -1241,7 +1241,7 @@
         "dte": 122
       },
       "outcome": null,
-      "last_price": 603.97,
+      "last_price": 613.085,
       "current_return": 0.0
     },
     {
@@ -1271,7 +1271,7 @@
         "dte": 122
       },
       "outcome": null,
-      "last_price": 368.44,
+      "last_price": 383.82,
       "current_return": 0.0
     },
     {
@@ -1301,7 +1301,7 @@
         "dte": 150
       },
       "outcome": null,
-      "last_price": 230.85,
+      "last_price": 229.19,
       "current_return": 0.0
     },
     {
@@ -1331,7 +1331,7 @@
         "dte": 122
       },
       "outcome": null,
-      "last_price": 924.45,
+      "last_price": 975.2,
       "current_return": 0.0
     },
     {
@@ -1361,7 +1361,7 @@
         "dte": 122
       },
       "outcome": null,
-      "last_price": 407.73,
+      "last_price": 420.41,
       "current_return": 0.0
     },
     {
@@ -1391,7 +1391,7 @@
         "dte": 121
       },
       "outcome": null,
-      "last_price": 259.5499,
+      "last_price": 269.16,
       "current_return": 0.0
     },
     {
@@ -1421,7 +1421,7 @@
         "dte": 121
       },
       "outcome": null,
-      "last_price": 200.7119,
+      "last_price": 200.21,
       "current_return": 0.0
     },
     {
@@ -1451,7 +1451,7 @@
         "dte": 121
       },
       "outcome": null,
-      "last_price": 603.97,
+      "last_price": 613.085,
       "current_return": 0.0
     },
     {
@@ -1481,7 +1481,7 @@
         "dte": 121
       },
       "outcome": null,
-      "last_price": 407.73,
+      "last_price": 420.41,
       "current_return": 0.0
     },
     {
@@ -1511,7 +1511,7 @@
         "dte": 121
       },
       "outcome": null,
-      "last_price": 271.785,
+      "last_price": 283.98,
       "current_return": 0.0
     },
     {
@@ -1541,7 +1541,7 @@
         "dte": 121
       },
       "outcome": null,
-      "last_price": 368.44,
+      "last_price": 383.9001,
       "current_return": 0.0
     },
     {
@@ -1571,7 +1571,7 @@
         "dte": 149
       },
       "outcome": null,
-      "last_price": 26.855,
+      "last_price": 26.38,
       "current_return": 0.0
     },
     {
@@ -1601,7 +1601,7 @@
         "dte": 120
       },
       "outcome": null,
-      "last_price": 924.5,
+      "last_price": 975.2,
       "current_return": 0.0
     },
     {
@@ -1631,7 +1631,7 @@
         "dte": 120
       },
       "outcome": null,
-      "last_price": 603.975,
+      "last_price": 613.05,
       "current_return": 0.0
     },
     {
@@ -1661,7 +1661,7 @@
         "dte": 120
       },
       "outcome": null,
-      "last_price": 200.7375,
+      "last_price": 200.2631,
       "current_return": 0.0
     },
     {
@@ -1691,7 +1691,7 @@
         "dte": 120
       },
       "outcome": null,
-      "last_price": 407.73,
+      "last_price": 420.41,
       "current_return": 0.0
     },
     {
@@ -1721,7 +1721,7 @@
         "dte": 120
       },
       "outcome": null,
-      "last_price": 259.52,
+      "last_price": 269.26,
       "current_return": 0.0
     },
     {
@@ -1751,7 +1751,7 @@
         "dte": 120
       },
       "outcome": null,
-      "last_price": 368.4,
+      "last_price": 383.9001,
       "current_return": 0.0
     },
     {
@@ -1781,7 +1781,7 @@
         "dte": 120
       },
       "outcome": null,
-      "last_price": 271.785,
+      "last_price": 284.007,
       "current_return": 0.0
     },
     {
@@ -1811,7 +1811,7 @@
         "dte": 147
       },
       "outcome": null,
-      "last_price": 200.7375,
+      "last_price": 200.2631,
       "current_return": 0.0
     },
     {
@@ -1841,7 +1841,7 @@
         "dte": 147
       },
       "outcome": null,
-      "last_price": 259.52,
+      "last_price": 269.26,
       "current_return": 0.0
     },
     {
@@ -1871,7 +1871,7 @@
         "dte": 147
       },
       "outcome": null,
-      "last_price": 924.5,
+      "last_price": 975.2,
       "current_return": 0.0
     },
     {
@@ -1901,7 +1901,7 @@
         "dte": 147
       },
       "outcome": null,
-      "last_price": 230.85,
+      "last_price": 229.19,
       "current_return": 0.0
     },
     {
@@ -1931,7 +1931,7 @@
         "dte": 146
       },
       "outcome": null,
-      "last_price": 603.975,
+      "last_price": 612.955,
       "current_return": 0.0
     },
     {
@@ -1961,7 +1961,7 @@
         "dte": 143
       },
       "outcome": null,
-      "last_price": 407.73,
+      "last_price": 420.41,
       "current_return": 0.0
     },
     {
@@ -1991,7 +1991,7 @@
         "dte": 141
       },
       "outcome": null,
-      "last_price": 603.975,
+      "last_price": 612.955,
       "current_return": 0.0
     },
     {
@@ -2021,7 +2021,7 @@
         "dte": 141
       },
       "outcome": null,
-      "last_price": 368.4,
+      "last_price": 384.19,
       "current_return": 0.0
     },
     {
@@ -2051,7 +2051,7 @@
         "dte": 140
       },
       "outcome": null,
-      "last_price": 259.52,
+      "last_price": 269.26,
       "current_return": 0.0
     },
     {
@@ -2081,7 +2081,7 @@
         "dte": 140
       },
       "outcome": null,
-      "last_price": 407.73,
+      "last_price": 420.41,
       "current_return": 0.0
     },
     {
@@ -2111,7 +2111,37 @@
         "dte": 140
       },
       "outcome": null,
-      "last_price": 271.785,
+      "last_price": 284.007,
+      "current_return": 0.0
+    },
+    {
+      "ticker": "AMZN",
+      "entry_date": "2026-05-01",
+      "features": {
+        "impact": 8,
+        "surprise": 5,
+        "mismatch": 2.45,
+        "z_score": 1.11,
+        "sigma_30d": 0.0196,
+        "eps_drift": 0.0,
+        "bin_impact": "high",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "strategy": "LONG_CALL",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 300.0,
+        "bid": 10.15,
+        "ask": 11.0,
+        "last": 10.5,
+        "open_interest": 11459,
+        "implied_vol": 0.3309393078613281,
+        "spread_ratio": 0.0773,
+        "dte": 139
+      },
+      "outcome": null,
+      "last_price": 269.26,
       "current_return": 0.0
     }
   ],

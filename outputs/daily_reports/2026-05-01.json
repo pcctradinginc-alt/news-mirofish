@@ -1,0 +1,55 @@
+{
+  "date": "2026-05-01",
+  "proposals": [
+    {
+      "ticker": "AMZN",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 300.0,
+        "bid": 10.15,
+        "ask": 11.0,
+        "last": 10.5,
+        "open_interest": 11459,
+        "implied_vol": 0.3309393078613281,
+        "spread_ratio": 0.0773,
+        "dte": 139
+      },
+      "features": {
+        "impact": 8,
+        "surprise": 5,
+        "mismatch": 2.45,
+        "z_score": 1.11,
+        "sigma_30d": 0.0196,
+        "eps_drift": 0.0,
+        "bin_impact": "high",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 295.85,
+        "current_price": 268.95,
+        "sigma_adj": 0.0196,
+        "sector": "Consumer Cyclical",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "AMZN",
+        "impact": 8,
+        "surprise": 5,
+        "mispricing_logic": "Der Markt diskontiert das $50B OpenAI-Investment als reinen Kapitalaufwand, ohne den strategischen Optionswert zu erfassen: AWS-Infrastruktur wird zum prim\u00e4ren AI-Compute-Layer f\u00fcr das wertvollste AI-\u00d6kosystem. Q1-Zahlen zeigen operative Leverage (+77% Net Income bei +17% Revenue) ist bereits strukturell. EPS-Drift von 0.0 signalisiert, dass Analysten die Marginexpansion noch nicht vollst\u00e4ndig in Forward-Estimates integriert haben. Markt bewertet Investition als Cost, nicht als Moat-Building.",
+        "catalyst": "Q2 2025 Earnings (ca. Juli 2025): AWS-Revenue-Beschleunigung durch OpenAI-Workloads messbar; Analyst-Upgrades erzwingen Konsensrevision nach oben. Zus\u00e4tzlich: OpenAI-Kapitalrunde oder Produktank\u00fcndigung, die AWS als bevorzugte Cloud-Infrastruktur explizit best\u00e4tigt.",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "Anthropic/Google-Partnership und Microsoft-Azure-Lock-in reduzieren OpenAI-AWS-Exklusivit\u00e4t. $50B-Capex belastet Free Cash Flow, w\u00e4hrend Makro-Abschw\u00e4chung Consumer-Segment dr\u00fcckt. Regulatorische AI-Investitionsbeschr\u00e4nkungen m\u00f6glich.",
+        "bear_case_severity": 5,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.3902
+    }
+  ]
+}
