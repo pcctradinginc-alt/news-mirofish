@@ -1,0 +1,355 @@
+{
+  "date": "2026-05-04",
+  "proposals": [
+    {
+      "ticker": "AVGO",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 450.0,
+        "bid": 38.85,
+        "ask": 40.25,
+        "last": 40.0,
+        "open_interest": 3497,
+        "implied_vol": 0.519383468322754,
+        "spread_ratio": 0.0348,
+        "dte": 136
+      },
+      "features": {
+        "impact": 8,
+        "surprise": 5,
+        "mismatch": 7.544,
+        "z_score": 0.091,
+        "sigma_30d": 0.0268,
+        "eps_drift": 0.0,
+        "bin_impact": "high",
+        "bin_mismatch": "strong",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 457.44,
+        "current_price": 415.85,
+        "sigma_adj": 0.0348,
+        "sector": "Technology",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "AVGO",
+        "impact": 8,
+        "surprise": 5,
+        "mispricing_logic": "Der Markt reagiert mit -0.24% trotz mehrerer konkreter AI-Infrastruktur-Partnerschaften (Meta, Google/Anthropic). Die Underreaction erkl\u00e4rt sich durch den gleichzeitigen Seaport-Downgrade, der Retail-Noise erzeugt und institutionelle Momentum-Trader z\u00f6gern l\u00e4sst. Der EPS-Drift von 0.0 signalisiert, dass Analysten die langfristigen Custom-ASIC-Ums\u00e4tze aus Multi-Year-Deals noch nicht in Revisionen \u00fcbersetzt haben. Markt bewertet News als bekannt, ignoriert aber die kumulative Kapazit\u00e4tsbindung und Switching-Cost-Moat dieser Multi-Year-Strukturen.",
+        "catalyst": "N\u00e4chstes AVGO Earnings (Q2 FY2025, erwartet Juni 2025): Management Guidance-Update zu Custom AI ASIC Revenue Run-Rate und explizite Quantifizierung des Meta/Google-Umsatzbeitrags \u2013 erzwingt Konsens-Revisionen nach oben.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Seaport-Downgrade adressiert valides Risiko: AI-Capex-Zyklen k\u00f6nnen abrupt stoppen. Meta/Google k\u00f6nnten ASIC-Designs in-house verlagern (Eigenentwicklung). Branchenlimits bei CoWoS-Packaging k\u00f6nnten Auslieferung verz\u00f6gern und Revenue-Timing verschieben.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.6195
+    },
+    {
+      "ticker": "META",
+      "strategy": "LONG_PUT",
+      "iv_rank": 22.222222222222225,
+      "direction": "BEARISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 650.0,
+        "bid": 75.3,
+        "ask": 77.15,
+        "last": 70.85,
+        "open_interest": 3553,
+        "implied_vol": 0.34503828796386715,
+        "spread_ratio": 0.024,
+        "dte": 136
+      },
+      "features": {
+        "impact": 6,
+        "surprise": 3,
+        "mismatch": 4.676,
+        "z_score": 0.265,
+        "sigma_30d": 0.0304,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 546.32,
+        "current_price": 607.02,
+        "sigma_adj": 0.0304,
+        "sector": "Communication Services",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "META",
+        "impact": 6,
+        "surprise": 3,
+        "mispricing_logic": "Der Markt diskontiert regulatorische Einzelf\u00e4lle als isolierte Ereignisse, ignoriert jedoch die kumulative Wirkung: mehrere parallele Klagen (New Mexico, Scam Ads, historischer Gerichtsverlust) signalisieren systemischen Rechtsdruck. Mit Forward-P/E ~16x und EPS-Drift 0.0 preist der Markt keine strukturelle Haftungseskalation ein. Die -0.8% Reaktion ist angesichts potenzieller Milliarden-Liabilities statistisch zu schwach \u2013 klassische Underreaction bei komplexen, zeitverz\u00f6gerten Rechtsrisiken.",
+        "catalyst": "Urteilsverk\u00fcndung im New Mexico Public-Nuisance-Verfahren (Q2/Q3 2025 erwartet) oder FTC-Entscheidung zu strukturellen Remedies; jede konkrete Schadensersatzquantifizierung \u00fcber $1Mrd zwingt zu R\u00fcckstellungsanpassungen und Analysten-Revisionen.",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "META generiert ~$60Mrd FCF/Jahr; selbst $3-5Mrd Gesamtschadensersatz entspricht <10% eines Jahres-FCF. Starkes Ad-Revenue-Wachstum und AI-Monetarisierung \u00fcberwiegen Rechtsrisiken strukturell.",
+        "bear_case_severity": 7,
+        "direction": "BEARISH"
+      },
+      "final_score": 0.4204
+    },
+    {
+      "ticker": "GOOGL",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 400.0,
+        "bid": 27.0,
+        "ask": 27.8,
+        "last": 26.9,
+        "open_interest": 4280,
+        "implied_vol": 0.3776765113830566,
+        "spread_ratio": 0.0288,
+        "dte": 136
+      },
+      "features": {
+        "impact": 6,
+        "surprise": 4,
+        "mismatch": 4.588,
+        "z_score": 0.282,
+        "sigma_30d": 0.0253,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 420.04,
+        "current_price": 381.85,
+        "sigma_adj": 0.0253,
+        "sector": "Communication Services",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "GOOGL",
+        "impact": 6,
+        "surprise": 4,
+        "mispricing_logic": "Der Markt reagiert mit -0.71% trotz Earnings-Beat, BofA-Zielerh\u00f6hung und strategischer Intel-Partnerschaft. Klassische Sell-the-News-Reaktion nach hohen Erwartungen. Der strukturelle Wert der Google-Intel-Kooperation f\u00fcr propriet\u00e4re AI-Infrastruktur (TPU/Gaudi-Integration) wird kurzfristig ignoriert, da der Markt auf schnelle Gewinnmitnahmen setzt statt auf den mehrj\u00e4hrigen Compounding-Effekt der AI-Cloud-Marktanteilsgewinne.",
+        "catalyst": "N\u00e4chstes Alphabet Earnings (Q2 2025 ca. Juli 2025) mit AI-Cloud-Umsatzzahlen; zudem m\u00f6gliche konkrete Produkt-Announcements auf Google I/O (Mai 2025) zur Intel-Partnerschaft und Gemini-Infrastruktur-Skalierung.",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "DOJ-Antitrust-Urteil (Search-Monopol) k\u00f6nnte strukturelle Remedies erzwingen. Gleichzeitig ist EPS-Drift von 0.0 besorgniserregend \u2013 keine positive Revision-Dynamik trotz Beat, was auf gestiegene CAPEX-Erwartungen hinweist.",
+        "bear_case_severity": 7,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.4165
+    },
+    {
+      "ticker": "LLY",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 1000.0,
+        "bid": 68.35,
+        "ask": 72.1,
+        "last": 71.3,
+        "open_interest": 375,
+        "implied_vol": 0.3756165954589844,
+        "spread_ratio": 0.052,
+        "dte": 136
+      },
+      "features": {
+        "impact": 7,
+        "surprise": 5,
+        "mismatch": 1.524,
+        "z_score": 1.095,
+        "sigma_30d": 0.0267,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 1057.61,
+        "current_price": 961.46,
+        "sigma_adj": 0.024,
+        "sector": "Healthcare",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "LLY",
+        "impact": 7,
+        "surprise": 5,
+        "mispricing_logic": "Die +2.92% Reaktion reflektiert nur die direkte FDA-Neuigkeit, untersch\u00e4tzt jedoch den strategischen Wert: Foundayo als Pille (oral) erweitert LLYs GLP-1-Franchise massiv, da Injektionsh\u00fcrde entf\u00e4llt und TAM sich vervielfacht. Markt bewertet prim\u00e4r kurzfristigen EPS-Impact, nicht den Paradigmenwechsel bei Patientenzugang und Marktdurchdringung. EPS-Drift von 0.0 signalisiert, dass Analysten noch keine Modell-Updates integriert haben.",
+        "catalyst": "Q1 2026 Earnings-Call (voraussichtlich April/Mai 2026): Erste Guidance-Anhebung mit Foundayo-Umsatzprognose sowie Analyst-Day mit Preisgestaltungs- und Marktpenetrationsstrategie f\u00fcr die orale Formulierung",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Orale GLP-1-Wirksamkeit signifikant unter Injektion; Versicherungsdeckung unklar; Konkurrenz durch Novo Nordisk oral pipeline; Gewichtsabnahme-Outcomes k\u00f6nnten Reimburser nicht \u00fcberzeugen, was Launch-Ramp deutlich verz\u00f6gert.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.3136
+    },
+    {
+      "ticker": "NVDA",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 200.0,
+        "bid": 20.65,
+        "ask": 21.0,
+        "last": 21.0,
+        "open_interest": 29239,
+        "implied_vol": 0.4557854714965821,
+        "spread_ratio": 0.0167,
+        "dte": 136
+      },
+      "features": {
+        "impact": 5,
+        "surprise": 4,
+        "mismatch": 3.071,
+        "z_score": 0.386,
+        "sigma_30d": 0.0226,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 217.45,
+        "current_price": 197.68,
+        "sigma_adj": 0.0294,
+        "sector": "Technology",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "NVDA",
+        "impact": 5,
+        "surprise": 4,
+        "mispricing_logic": "Der Markt befindet sich in einer 'Show-Me'-Phase nach extremen Bewertungsmultiplen. Das Quantum-AI-Modell wird als Hype abgetan, da NVDA bereits mehrfach transformative Ank\u00fcndigungen gemacht hat. EPS-Drift von 0.0 signalisiert keine Konsensrevision \u2013 Analysten warten auf kommerzielle Validierung. Die -0.87% Reaktion zeigt Ersch\u00f6pfung, nicht fundamentale Neubewertung. Echter Wert liegt in Hardware-Nachfrage f\u00fcr Quantum-Workloads, die der Markt strukturell untersch\u00e4tzt.",
+        "catalyst": "N\u00e4chster NVDA Earnings Call (Q1 FY2026, voraussichtlich Mai 2025) mit Guidance zu Quantum-AI-Adoption und Hyperscaler-Bestellungen; alternativ konkrete Partnerschaft mit IBM/Google Quantum-Division als Newsflow-Trigger",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "NVDA handelt bei >25x Forward-Umsatz. Open-Source-Strategie kannibalisiert propriet\u00e4re Margins. Quantum-AI ist pr\u00e4kommerziell \u2013 kein messbarer Revenue-Beitrag vor 2027. Sentiment-Dreh bei Makro-Stress w\u00fcrde Multiple-Kontraktion beschleunigen.",
+        "bear_case_severity": 7,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.3132
+    },
+    {
+      "ticker": "TSLA",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 400.0,
+        "bid": 41.5,
+        "ask": 41.9,
+        "last": 42.4,
+        "open_interest": 5752,
+        "implied_vol": 0.4785055812072754,
+        "spread_ratio": 0.0095,
+        "dte": 136
+      },
+      "features": {
+        "impact": 6,
+        "surprise": 4,
+        "mismatch": 1.355,
+        "z_score": 0.929,
+        "sigma_30d": 0.0266,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 430.18,
+        "current_price": 391.07,
+        "sigma_adj": 0.0266,
+        "sector": "Consumer Cyclical",
+        "ttm": "2-3 Monate"
+      },
+      "deep_analysis": {
+        "ticker": "TSLA",
+        "impact": 6,
+        "surprise": 4,
+        "mispricing_logic": "Der Markt bewertet TSLA prim\u00e4r als Automobilhersteller mit schw\u00e4chelnden EPS (Forward 2.54 vs. Konsens 2.36 \u2013 kaum positiver Drift). Die 'Physical AI'-Narrative (Robotaxi, Optimus, FSD) wird noch nicht konsistent in Fundamentalmodellen abgebildet, da greifbare Revenue-Streams fehlen. Gleichzeitig suggeriert SpaceX als Cybertruck-K\u00e4ufer eher k\u00fcnstliches Demand-Engineering als organisches Wachstum \u2013 eine strukturelle Schw\u00e4che, die der Markt zu wenig beachtet.",
+        "catalyst": "Tesla Q2 2025 Earnings Call (voraussichtlich Juli 2025) mit konkreten Robotaxi-Launch-Daten in Austin sowie Optimus-Produktionszahlen; alternativ regulatorische FSD-Zulassung auf Level 4 durch NHTSA.",
+        "time_to_materialization": "2-3 Monate",
+        "bear_case": "EPS-Drift bei 0.0 signalisiert Analysten-Stagnation. Kernautogesch\u00e4ft unter Margendruck, Musk-Ablenkung durch DOGE/xAI, und SpaceX-K\u00e4ufe verschleiern echte Cybertruck-Nachfrageschw\u00e4che. AI-Story ohne nachweisbaren Cash-Flow ist reine Multiple-Expansion.",
+        "bear_case_severity": 7,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.271
+    },
+    {
+      "ticker": "PFE",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 28.0,
+        "bid": 0.82,
+        "ask": 0.85,
+        "last": 0.87,
+        "open_interest": 89870,
+        "implied_vol": 0.2260819580078125,
+        "spread_ratio": 0.0353,
+        "dte": 136
+      },
+      "features": {
+        "impact": 4,
+        "surprise": 2,
+        "mismatch": 0.317,
+        "z_score": 0.737,
+        "sigma_30d": 0.0137,
+        "eps_drift": 0.0,
+        "bin_impact": "low",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 0.8889,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 29.07,
+        "current_price": 26.43,
+        "sigma_adj": 0.0124,
+        "sector": "Healthcare",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "PFE",
+        "impact": 4,
+        "surprise": 2,
+        "mispricing_logic": "Der Markt preist bekannte Patent-Klippen (Eliquis ~2026, Ibrance) bereits ein, ignoriert aber den Forward-EPS-Gap: Konsens 2.45 vs. Forward-EPS 2.81 \u2013 eine 14,9% Divergenz. Diese entsteht durch \u00fcberm\u00e4\u00dfigen Post-COVID-Pessimismus. Analysten undermodellen den Oncology-Pipeline-Wert (Seagen-Integration) und untersch\u00e4tzen Kostensenkungsprogramme. Der -1% Drift bei flachem EPS-Drift signalisiert keine neue Information, sondern anhaltenden Sentiment-Drag ohne fundamentalen Ausl\u00f6ser.",
+        "catalyst": "Q2 2024 Earnings Release (voraussichtlich Juli/August) mit Seagen-Synergieupdate und revidierten Kostenguidance \u2013 erzwingt Neubewertung des Forward-EPS durch Buy-Side-Modelle.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "IRA-Preisverhandlungen f\u00fcr Top-Seller beschleunigen Umsatzerosion. Seagen-Integration verbrennt Cash schneller als erwartet. Patent-Abl\u00e4ufe 2025-2027 erzeugen strukturelles Umsatzloch ohne Pipeline-Kompensation.",
+        "bear_case_severity": 7,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.1543
+    }
+  ]
+}
