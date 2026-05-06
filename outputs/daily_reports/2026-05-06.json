@@ -1,0 +1,255 @@
+{
+  "date": "2026-05-06",
+  "proposals": [
+    {
+      "ticker": "AVGO",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 450.0,
+        "bid": 40.4,
+        "ask": 41.65,
+        "last": 41.15,
+        "open_interest": 3504,
+        "implied_vol": 0.501378277282715,
+        "spread_ratio": 0.03,
+        "dte": 134
+      },
+      "features": {
+        "impact": 7,
+        "surprise": 5,
+        "mismatch": 3.788,
+        "z_score": 0.642,
+        "sigma_30d": 0.0265,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 466.14,
+        "current_price": 423.76,
+        "sigma_adj": 0.0345,
+        "sector": "Technology",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "AVGO",
+        "impact": 7,
+        "surprise": 5,
+        "mispricing_logic": "Der Markt hat die Meta-Partnerschaft als inkrementelles AI-News verarbeitet (+1,7%), obwohl Multi-Year Custom ASIC Deals strukturell die Revenue-Visibilit\u00e4t transformieren. Broadcom's XPU-Segment (Custom AI Chips) generiert h\u00f6here Margen als Commodity-GPUs. Seaport-Downgrade erzeugt k\u00fcnstlich bearishes Sentiment und maskiert, dass die Deals langfristige Kapazit\u00e4tsbindungen darstellen \u2013 nicht punktuelle Orders. EPS-Drift von 0,0 signalisiert, dass Analysten ihre Modelle noch nicht angepasst haben.",
+        "catalyst": "Q2 FY2025 Earnings Call (voraussichtlich Juni 2025): Erstmalige explizite Revenue-Guidance f\u00fcr Meta/Google XPU-Segment erwartet; Management wird Custom-ASIC-TAM quantifizieren und Kapazit\u00e4tsauslastung kommunizieren.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Seaport-Downgrade adressiert valides Risiko: Hyperscaler k\u00f6nnten Custom-ASIC-Designs internalisieren (analog zu Apple Silicon). Meta/Google haben eigene Chip-Teams; Broadcom-Abh\u00e4ngigkeit sinkt mittelfristig strukturell.",
+        "bear_case_severity": 6,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.4155
+    },
+    {
+      "ticker": "MRK",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 125.0,
+        "bid": 3.85,
+        "ask": 4.0,
+        "last": 3.8,
+        "open_interest": 2299,
+        "implied_vol": 0.2884592639160155,
+        "spread_ratio": 0.0375,
+        "dte": 134
+      },
+      "features": {
+        "impact": 6,
+        "surprise": 4,
+        "mismatch": 3.476,
+        "z_score": 0.505,
+        "sigma_30d": 0.0159,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 125.39,
+        "current_price": 114.0,
+        "sigma_adj": 0.0143,
+        "sector": "Healthcare",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "MRK",
+        "impact": 6,
+        "surprise": 4,
+        "mispricing_logic": "Der Markt reagiert mit nur 0.8% auf FDA Priority Review f\u00fcr KEYTRUDA in muskelinvasivem Blasenkrebs \u2013 einem Segment mit ~80.000 US-Neudiagnosen/Jahr. Priority Review verk\u00fcrzt Zulassungszeit auf 6 Monate und signalisiert klinische \u00dcberlegenheit. Der Markt diskontiert dies aufgrund von KEYTRUDA-Patent-Cliff-Angst (2028) und \u00fcbersieht das inkrementelle Umsatzpotenzial dieser Indikationserweiterung. Zero EPS-Drift deutet auf institutionelle Unterbewertung der News hin.",
+        "catalyst": "PDUFA-Entscheidungsdatum ca. Q2 2025 (6-Monate-Review-Window ab Priority Review Grant); Q1 2025 Earnings mit KEYTRUDA-Umsatzupdate als Zwischenkatalysator",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "KEYTRUDA-Patent-Expiry 2028 dominiert die Investorenpsychologie. Biosimilar-Bedrohung und Preisverhandlungen durch IRA (Inflation Reduction Act) k\u00f6nnten Margendruck verst\u00e4rken. Indikationserweiterungen kompensieren strukturellen Umsatzr\u00fcckgang nicht ausreichend.",
+        "bear_case_severity": 7,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.3664
+    },
+    {
+      "ticker": "META",
+      "strategy": "LONG_PUT",
+      "iv_rank": 22.222222222222225,
+      "direction": "BEARISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 650.0,
+        "bid": 66.65,
+        "ask": 68.2,
+        "last": 67.49,
+        "open_interest": 3551,
+        "implied_vol": 0.31632153411865227,
+        "spread_ratio": 0.0227,
+        "dte": 134
+      },
+      "features": {
+        "impact": 5,
+        "surprise": 3,
+        "mismatch": 3.812,
+        "z_score": 0.238,
+        "sigma_30d": 0.0304,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 553.4,
+        "current_price": 614.88,
+        "sigma_adj": 0.0304,
+        "sector": "Communication Services",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "META",
+        "impact": 5,
+        "surprise": 3,
+        "mispricing_logic": "Der Markt preist gerichtliche Niederlagen bei META chronisch unter, weil Anleger auf Metas F\u00e4higkeit vertrauen, Strafen zu absorbieren (starke FCF-Generierung ~$50B/Jahr). Der eigentliche Schaden liegt jedoch in strukturellen Compliance-Kosten, erzwungenen Plattformanpassungen und regulatorischem Signaleffekt f\u00fcr weitere Klagen. Die +0.72% Bewegung ignoriert potenzielle kumulative Haftung und Ad-Revenue-Disruption durch Plattform-Restrukturierungen.",
+        "catalyst": "Urteilsbegr\u00fcndung und Settlement-Verhandlungen Q1 2025; FTC-Reaktion und m\u00f6gliche Anschlussklagen innerhalb 4-6 Wochen; Q4 Earnings Call (Feb 2025) wo Management R\u00fcckstellungen quantifizieren muss.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "META hat Forward-EPS von 36.18 und einen Konsens von Strong Buy (1.35). Selbst $1-2B Zusatzbelastung kratzt kaum am FCF. Regulierungsrisiken sind seit Jahren bekannt und eingepreist \u2013 kein echter Newsflow-Effekt.",
+        "bear_case_severity": 7,
+        "direction": "BEARISH"
+      },
+      "final_score": 0.3465
+    },
+    {
+      "ticker": "TSLA",
+      "strategy": "LONG_PUT",
+      "iv_rank": 22.222222222222225,
+      "direction": "BEARISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 400.0,
+        "bid": 43.5,
+        "ask": 43.85,
+        "last": 44.0,
+        "open_interest": 4823,
+        "implied_vol": 0.41144387390136716,
+        "spread_ratio": 0.008,
+        "dte": 134
+      },
+      "features": {
+        "impact": 4,
+        "surprise": 3,
+        "mismatch": 3.599,
+        "z_score": 0.08,
+        "sigma_30d": 0.0265,
+        "eps_drift": 0.0,
+        "bin_impact": "low",
+        "bin_mismatch": "good",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 352.5,
+        "current_price": 391.67,
+        "sigma_adj": 0.0265,
+        "sector": "Consumer Cyclical",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "TSLA",
+        "impact": 4,
+        "surprise": 3,
+        "mispricing_logic": "SpaceX als Gro\u00dfabnehmer f\u00fcr Cybertrucks ist eine interne Transaktion innerhalb des Musk-\u00d6kosystems, kein echter Marktdurchbruch. Der Markt ignoriert dies korrekt. 'Physical AI Leadership' ist Marketing-Narrativ ohne messbaren EPS-Beitrag. EPS-Drift von 0.0 und Forward-EPS leicht \u00fcber Konsens signalisieren keine signifikante Ineffizienz \u2013 Markt hat die Story bereits partiell eingepreist.",
+        "catalyst": "Q1 2025 Earnings Call (April 2025): Robotaxi-Rollout-Update und konkrete FSD-Monetarisierungszahlen oder Optimus-Produktionsziele k\u00f6nnten Neubewertung erzwingen.",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "SpaceX-K\u00e4ufe verschleiern schwache organische Cybertruck-Nachfrage. Ausl\u00e4ndische Verk\u00e4ufe bleiben 2025 deprimiert durch Musk-Reputationsschaden in Europa/China. Keine echte AI-Monetarisierung in Sicht.",
+        "bear_case_severity": 7,
+        "direction": "BEARISH"
+      },
+      "final_score": 0.302
+    },
+    {
+      "ticker": "ABBV",
+      "strategy": "LONG_CALL",
+      "iv_rank": 22.222222222222225,
+      "direction": "BULLISH",
+      "option": {
+        "expiry": "2026-09-18",
+        "strike": 220.0,
+        "bid": 8.45,
+        "ask": 8.65,
+        "last": 8.05,
+        "open_interest": 730,
+        "implied_vol": 0.28742167663574214,
+        "spread_ratio": 0.0231,
+        "dte": 134
+      },
+      "features": {
+        "impact": 6,
+        "surprise": 3,
+        "mismatch": 1.651,
+        "z_score": 0.87,
+        "sigma_30d": 0.0155,
+        "eps_drift": 0.0,
+        "bin_impact": "mid",
+        "bin_mismatch": "weak",
+        "bin_eps_drift": "noise"
+      },
+      "simulation": {
+        "hit_rate": 1.0,
+        "n_paths": 10000,
+        "n_days": 120,
+        "target_price": 225.82,
+        "current_price": 205.29,
+        "sigma_adj": 0.0139,
+        "sector": "Healthcare",
+        "ttm": "4-8 Wochen"
+      },
+      "deep_analysis": {
+        "ticker": "ABBV",
+        "impact": 6,
+        "surprise": 3,
+        "mispricing_logic": "Der Markt reagiert auf den Cantor-Downgrade \u00fcberproportional und ignoriert, dass BofA-Upgrade auf Skyrizi-St\u00e4rke fundamentaler begr\u00fcndet ist. EPS-Drift bei null deutet auf Konsens-Stabilit\u00e4t, nicht auf Verschlechterung. Die -1.35% Bewegung spiegelt kurzfristigen Headline-Noise wider, nicht die strukturelle Verschiebung weg von Humira-Abh\u00e4ngigkeit hin zu Skyrizi/Rinvoq-Wachstum, das 2025 vollst\u00e4ndig tragen muss. Markt untergewichtet Forward-EPS von 16.20 bei KGV-Expansion.",
+        "catalyst": "Q1 2025 Earnings (April/Mai): Skyrizi-Umsatzbest\u00e4tigung >$3.5Mrd Quartalsrun-rate w\u00fcrde Bull-These validieren und Cantor-Skepsis widerlegen",
+        "time_to_materialization": "4-8 Wochen",
+        "bear_case": "Cantor sieht schwache Pharma-Katalysatoren strukturell begr\u00fcndet. Humira-Biosimilar-Erosion tiefer als modelliert, Skyrizi-Penetration verlangsamt sich, makro\u00f6konomischer Druck auf Drug-Pricing durch IRA-Verhandlungen komprimiert Multiples.",
+        "bear_case_severity": 5,
+        "direction": "BULLISH"
+      },
+      "final_score": 0.2843
+    }
+  ]
+}
